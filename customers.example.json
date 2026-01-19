@@ -1,0 +1,17 @@
+{
+  "customers": [
+    {
+      "email": "customer1@example.com",
+      "name": "客户1",
+      "enabled": true,
+      "added_date": "2026-01-19"
+    },
+    {
+      "email": "customer2@example.com",
+      "name": "客户2",
+      "enabled": true,
+      "added_date": "2026-01-19"
+    }
+  ],
+  "notes": "客户邮箱列表，用于批量发送CCF会议提醒"
+}

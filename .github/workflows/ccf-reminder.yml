@@ -1,0 +1,33 @@
+name: CCF会议截止日期提醒
+
+on:
+  schedule:
+    # 每周一上午9点运行（北京时间，UTC+8）
+    # GitHub Actions使用UTC时间，所以减8小时
+    - cron: '0 1 * * 1'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+
+    - name: 设置Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 运行邮件发送程序
+      env:
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+        SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        SMTP_USER: ${{ secrets.SMTP_USER }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        FROM_NAME: CCF会议提醒助手
+        TO_EMAILS: ${{ secrets.TO_EMAILS }}
+      run: |
+        python email_sender.py --days 30

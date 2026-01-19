@@ -1,0 +1,9 @@
+{
+  "smtp_server": "smtp.qq.com",
+  "smtp_port": 587,
+  "smtp_user": "your_email@qq.com",
+  "smtp_password": "your_authorization_code",
+  "from_email": "your_email@qq.com",
+  "from_name": "CCF会议提醒助手",
+  "to_emails": "recipient@example.com"
+}

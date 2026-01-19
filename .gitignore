@@ -1,0 +1,55 @@
+# 环境变量文件（包含敏感信息）
+.env
+.env.local
+
+# 配置文件（包含邮箱、授权码等敏感信息）
+config.json
+feishu_config.json
+customers.json
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+virtualenv/
+.venv/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swo-
+.project
+.classpath
+.settings/
+
+# 日志文件
+*.log
+
+# 测试输出
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*~
+
+# 输出文件
+.output

@@ -1,0 +1,486 @@
+{
+  "conferences": [
+    {
+      "name": "IJCAI 2026",
+      "rank": "A",
+      "deadline": "2026-01-20",
+      "conference_date": "2026年8月15-21日",
+      "website": "https://ijcai26.org/",
+      "description": "国际人工智能联合会议，CCF A类会议，录用率14.0%"
+    },
+    {
+      "name": "ICIP 2026",
+      "rank": "C",
+      "deadline": "2026-01-22",
+      "conference_date": "2026年9月13-17日",
+      "website": "https://2026.ieeeicip.org/",
+      "description": "国际图像处理会议，录用率44.4%"
+    },
+    {
+      "name": "ACM SIGGRAPH 2026",
+      "rank": "A",
+      "deadline": "2026-01-23",
+      "conference_date": "2026年7月19-23日",
+      "website": "https://s2026.siggraph.org/",
+      "description": "ACM计算机图形学年会，CCF A类会议，录用率29.9%"
+    },
+    {
+      "name": "SIGIR 2026",
+      "rank": "A",
+      "deadline": "2026-01-23",
+      "conference_date": "2026年7月20-24日",
+      "website": "https://sigir2026.org/",
+      "description": "ACM信息检索研究与开发会议，CCF A类会议，录用率20.2%"
+    },
+    {
+      "name": "LICS 2026",
+      "rank": "A",
+      "deadline": "2026-01-23",
+      "conference_date": "2026年7月20-23日",
+      "website": "https://lics2026.london/",
+      "description": "IEEE计算机科学中的逻辑研讨会，CCF A类会议，录用率34.8%"
+    },
+    {
+      "name": "ACNS 2026",
+      "rank": "C",
+      "deadline": "2026-01-24",
+      "conference_date": "2026年6月22-25日",
+      "website": "https://acns2026.org/",
+      "description": "计算机网络与安全会议"
+    },
+    {
+      "name": "EASE 2026",
+      "rank": "C",
+      "deadline": "2026-01-24",
+      "conference_date": "2026年6月9-12日",
+      "website": "https://ease-conferences.org/",
+      "description": "软件工程评估会议"
+    },
+    {
+      "name": "GECCO 2026",
+      "rank": "C",
+      "deadline": "2026-01-27",
+      "conference_date": "2026年7月13-17日",
+      "website": "https://gecco-2026.sigevo.org/",
+      "description": "遗传与进化计算会议"
+    },
+    {
+      "name": "ICML 2026",
+      "rank": "A",
+      "deadline": "2026-01-29",
+      "conference_date": "2026年7月6-12日",
+      "website": "https://icml.cc/",
+      "description": "国际机器学习会议，CCF A类会议，录用率27.5%"
+    },
+    {
+      "name": "CAV 2026",
+      "rank": "A",
+      "deadline": "2026-01-29",
+      "conference_date": "2026年7月26-29日",
+      "website": "https://cav2026.org/",
+      "description": "计算机辅助验证会议，CCF A类会议，录用率19.1%"
+    },
+    {
+      "name": "CSFW 2026",
+      "rank": "B",
+      "deadline": "2026-01-30",
+      "conference_date": "2026年7月26-29日",
+      "website": "https://www.ieee-security.org/TC/CSFW.html",
+      "description": "IEEE计算机安全基础工作会议"
+    },
+    {
+      "name": "ISSTA 2026",
+      "rank": "A",
+      "deadline": "2026-01-30",
+      "conference_date": "2026年10月3-9日",
+      "website": "https://issta2026.org/",
+      "description": "软件测试与分析国际研讨会，CCF A类会议，录用率24.4%"
+    },
+    {
+      "name": "IJCNN 2026",
+      "rank": "C",
+      "deadline": "2026-02-01",
+      "conference_date": "2026年6月21-26日",
+      "website": "https://www.ijcnn.org/",
+      "description": "国际神经网络联合会议，录用率38.9%"
+    },
+    {
+      "name": "COMPSAC 2026",
+      "rank": "C",
+      "deadline": "2026-02-01",
+      "conference_date": "2026年7月7-10日",
+      "website": "https://compsac2026.org/",
+      "description": "IEEE计算机软件与应用会议"
+    },
+    {
+      "name": "VLDB 2026",
+      "rank": "A",
+      "deadline": "2026-02-02",
+      "conference_date": "2026年8月31日-9月4日",
+      "website": "https://vldb.org/2026/",
+      "description": "超大型数据库会议，CCF A类会议，录用率19.4%"
+    },
+    {
+      "name": "SAC 2026",
+      "rank": "C",
+      "deadline": "2026-02-03",
+      "conference_date": "2026年8月24-28日",
+      "website": "https://sac2026.org/",
+      "description": "ACM计算机科学研讨会"
+    },
+    {
+      "name": "CogSci 2026",
+      "rank": "B",
+      "deadline": "2026-02-03",
+      "conference_date": "2026年7月22-25日",
+      "website": "https://cognitivesciencesociety.org/",
+      "description": "认知科学学会年会"
+    },
+    {
+      "name": "USENIX Security 2026",
+      "rank": "A",
+      "deadline": "2026-02-06",
+      "conference_date": "2026年8月12-14日",
+      "website": "https://www.usenix.org/conference/usenixsecurity26",
+      "description": "USENIX安全会议，CCF A类会议，录用率18.1%"
+    },
+    {
+      "name": "SIGCOMM 2026",
+      "rank": "A",
+      "deadline": "2026-02-07",
+      "conference_date": "2026年待定",
+      "website": "https://conferences.sigcomm.org/sigcomm/2026/",
+      "description": "ACM数据通信会议，CCF A类会议，录用率16.9%"
+    },
+    {
+      "name": "ICMR 2026",
+      "rank": "B",
+      "deadline": "2026-02-07",
+      "conference_date": "2026年6月16-19日",
+      "website": "https://icmr2026.org/",
+      "description": "国际多媒体检索会议，录用率41.6%"
+    },
+    {
+      "name": "EUSIPCO 2026",
+      "rank": "B",
+      "deadline": "2026-02-07",
+      "conference_date": "2026年8月31日-9月4日",
+      "website": "https://eusipco2026.org/",
+      "description": "欧洲信号处理会议"
+    },
+    {
+      "name": "SIGKDD 2026",
+      "rank": "A",
+      "deadline": "2026-02-09",
+      "conference_date": "2026年8月9-13日",
+      "website": "https://kdd.org/kdd-2026/",
+      "description": "ACM SIGKDD知识发现与数据挖掘会议，CCF A类会议，录用率20.1%"
+    },
+    {
+      "name": "IWQoS 2026",
+      "rank": "B",
+      "deadline": "2026-02-10",
+      "conference_date": "2026年6月29日-7月2日",
+      "website": "https://iwqos2026.ieee-iwqos.org/",
+      "description": "IEEE/ACM服务质量研讨会"
+    },
+    {
+      "name": "ICS 2026",
+      "rank": "B",
+      "deadline": "2026-02-10",
+      "conference_date": "2026年7月6-9日",
+      "website": "https://ics2026.org/",
+      "description": "ACM高性能计算会议"
+    },
+    {
+      "name": "DIMVA 2026",
+      "rank": "C",
+      "deadline": "2026-02-12",
+      "conference_date": "2026年7月1-3日",
+      "website": "https://dimva2026.org/",
+      "description": "恶意软件与漏洞分析会议"
+    },
+    {
+      "name": "CRYPTO 2026",
+      "rank": "A",
+      "deadline": "2026-02-13",
+      "conference_date": "2026年8月17-20日",
+      "website": "https://crypto2026.iacr.org/",
+      "description": "国际密码学会议，CCF A类会议，录用率21.8%"
+    },
+    {
+      "name": "ICCCN 2026",
+      "rank": "C",
+      "deadline": "2026-02-14",
+      "conference_date": "2026年7月27-30日",
+      "website": "https://icccn2026.org/",
+      "description": "国际计算机通信与网络会议"
+    },
+    {
+      "name": "KR 2026",
+      "rank": "B",
+      "deadline": "2026-02-14",
+      "conference_date": "2026年7月20-23日",
+      "website": "https://kr2026.org/",
+      "description": "知识表示与推理会议"
+    },
+    {
+      "name": "IH&MMSec 2026",
+      "rank": "C",
+      "deadline": "2026-02-17",
+      "conference_date": "2026年6月17-19日",
+      "website": "https://www.ihmmsec.org/",
+      "description": "信息隐藏与多媒体安全研讨会"
+    },
+    {
+      "name": "ICFP 2026",
+      "rank": "B",
+      "deadline": "2026-02-20",
+      "conference_date": "2026年8月24-29日",
+      "website": "https://icfp2026.org/",
+      "description": "ICFP函数式编程会议，录用率36.7%"
+    },
+    {
+      "name": "CoNLL 2026",
+      "rank": "C",
+      "deadline": "2026-02-20",
+      "conference_date": "2026年7月3-4日",
+      "website": "https://conll2026.org/",
+      "description": "自然语言学习会议"
+    },
+    {
+      "name": "InterSpeech 2026",
+      "rank": "C",
+      "deadline": "2026-02-26",
+      "conference_date": "2026年9月27日-10月1日",
+      "website": "https://interspeech2026.org/",
+      "description": "国际语音通信会议，录用率48.1%"
+    },
+    {
+      "name": "MICCAI 2026",
+      "rank": "B",
+      "deadline": "2026-02-27",
+      "conference_date": "2026年10月4-8日",
+      "website": "https://miccai2026.org/",
+      "description": "国际医学图像计算与计算机辅助干预会议"
+    },
+    {
+      "name": "ACISP 2026",
+      "rank": "C",
+      "deadline": "2026-02-27",
+      "conference_date": "2026年7月6-9日",
+      "website": "https://acisp2026.org/",
+      "description": "澳大利亚计算机信息安全会议"
+    },
+    {
+      "name": "ICDAR 2026",
+      "rank": "C",
+      "deadline": "2026-02-28",
+      "conference_date": "2026年8月30日-9月4日",
+      "website": "https://icdar2026.org/",
+      "description": "国际文档分析与识别会议"
+    },
+    {
+      "name": "SPAA 2026",
+      "rank": "B",
+      "deadline": "2026-02-28",
+      "conference_date": "2026年7月6-10日",
+      "website": "https://spaa2026.org/",
+      "description": "ACM并行算法与架构研讨会"
+    },
+    {
+      "name": "PETS 2026",
+      "rank": "C",
+      "deadline": "2026-03-01",
+      "conference_date": "2026年7月20-25日",
+      "website": "https://petsymposium.org/2026/",
+      "description": "隐私增强技术研讨会"
+    },
+    {
+      "name": "SACMAT 2026",
+      "rank": "C",
+      "deadline": "2026-03-03",
+      "conference_date": "2026年7月8-10日",
+      "website": "https://sacmat2026.org/",
+      "description": "ACM访问控制模型与技术会议"
+    },
+    {
+      "name": "WiSec 2026",
+      "rank": "C",
+      "deadline": "2026-03-04",
+      "conference_date": "2026年6月30日-7月3日",
+      "website": "https://wisec2026.org/",
+      "description": "ACM无线与移动系统安全会议"
+    },
+    {
+      "name": "ECCV 2026",
+      "rank": "B",
+      "deadline": "2026-03-07",
+      "conference_date": "2026年9月8-13日",
+      "website": "https://eccv2026.org/",
+      "description": "欧洲计算机视觉会议，CCF B类会议，录用率27.9%"
+    },
+    {
+      "name": "Euro-Par 2026",
+      "rank": "B",
+      "deadline": "2026-03-07",
+      "conference_date": "2026年8月24-28日",
+      "website": "https://europar2026.org/",
+      "description": "欧洲并行处理会议"
+    },
+    {
+      "name": "ICSME 2026",
+      "rank": "B",
+      "deadline": "2026-03-07",
+      "conference_date": "2026年9月14-18日",
+      "website": "https://icsme2026.org/",
+      "description": "IEEE国际软件维护与演化会议"
+    },
+    {
+      "name": "ECSCW 2026",
+      "rank": "B",
+      "deadline": "2026-03-07",
+      "conference_date": "2026年6月29日-7月3日",
+      "website": "https://ecscw2026.org/",
+      "description": "欧洲计算机支持协同工作会议"
+    },
+    {
+      "name": "MobiCom 2026",
+      "rank": "A",
+      "deadline": "2026-03-14",
+      "conference_date": "2026年11月",
+      "website": "https://mobicom2026.org/",
+      "description": "ACM移动计算与网络会议，CCF A类会议，录用率19.1%"
+    },
+    {
+      "name": "WASA 2026",
+      "rank": "C",
+      "deadline": "2026-03-16",
+      "conference_date": "2026年7月6-9日",
+      "website": "https://wasa2026.org/",
+      "description": "无线算法、系统与应用国际会议"
+    },
+    {
+      "name": "ISMAR 2026",
+      "rank": "B",
+      "deadline": "2026-03-17",
+      "conference_date": "2026年10月5-9日",
+      "website": "https://ismar2026.org/",
+      "description": "IEEE混合与增强现实国际研讨会"
+    },
+    {
+      "name": "ICANN 2026",
+      "rank": "C",
+      "deadline": "2026-03-17",
+      "conference_date": "2026年9月14-17日",
+      "website": "https://icann2026.org/",
+      "description": "国际神经网络会议"
+    },
+    {
+      "name": "FAST 2027",
+      "rank": "A",
+      "deadline": "2026-03-18",
+      "conference_date": "2027年2月23-25日",
+      "website": "https://www.usenix.org/conference/fast27",
+      "description": "USENIX文件与存储技术会议，CCF A类会议，录用率21.5%"
+    },
+    {
+      "name": "OOPSLA 2026",
+      "rank": "A",
+      "deadline": "2026-03-18",
+      "conference_date": "2026年10月3-9日",
+      "website": "https://oopscon2026.org/",
+      "description": "面向对象编程系统、语言与应用会议，CCF A类会议，录用率36.2%"
+    },
+    {
+      "name": "ICIC 2026",
+      "rank": "C",
+      "deadline": "2026-03-20",
+      "conference_date": "2026年7月22-26日",
+      "website": "https://icic2026.org/",
+      "description": "国际计算智能会议"
+    },
+    {
+      "name": "ICCBR 2026",
+      "rank": "B",
+      "deadline": "2026-03-21",
+      "conference_date": "2026年8月13-16日",
+      "website": "https://icbr2026.org/",
+      "description": "国际基于案例的推理会议"
+    },
+    {
+      "name": "RTSS 2026",
+      "rank": "A",
+      "deadline": "2026-03-22",
+      "conference_date": "2026年12月9-11日",
+      "website": "https://rtss2026.org/",
+      "description": "IEEE实时系统研讨会，CCF A类会议，录用率28.9%"
+    },
+    {
+      "name": "ASE 2026",
+      "rank": "A",
+      "deadline": "2026-03-27",
+      "conference_date": "2026年10月12-16日",
+      "website": "https://ase2026.org/",
+      "description": "自动化软件工程国际会议，CCF A类会议，录用率21.8%"
+    },
+    {
+      "name": "PPSN 2026",
+      "rank": "B",
+      "deadline": "2026-03-29",
+      "conference_date": "2026年8月29日-9月2日",
+      "website": "https://ppsn2026.org/",
+      "description": "并行问题求解自然会议"
+    },
+    {
+      "name": "UIST 2026",
+      "rank": "A",
+      "deadline": "2026-04-01",
+      "conference_date": "2026年11月2-5日",
+      "website": "https://uist2026.org/",
+      "description": "ACM用户界面软件与技术研讨会，CCF A类会议，录用率24.0%"
+    },
+    {
+      "name": "SOSP 2026",
+      "rank": "A",
+      "deadline": "2026-04-02",
+      "conference_date": "2026年9月29日-10月2日",
+      "website": "https://sosp2026.org/",
+      "description": "ACM操作系统原理研讨会，CCF A类会议，录用率17.7%"
+    },
+    {
+      "name": "ASAP 2026",
+      "rank": "C",
+      "deadline": "2026-04-04",
+      "conference_date": "2026年9月3-4日",
+      "website": "https://asap2026.org/",
+      "description": "IEEE应用专用系统架构会议"
+    },
+    {
+      "name": "SC 2026",
+      "rank": "A",
+      "deadline": "2026-04-09",
+      "conference_date": "2026年11月15-20日",
+      "website": "https://sc26.supercomputing.org/",
+      "description": "国际超级计算会议，CCF A类会议"
+    },
+    {
+      "name": "IJCB 2026",
+      "rank": "C",
+      "deadline": "2026-04-11",
+      "conference_date": "2026年9月1-4日",
+      "website": "https://ijcb2026.org/",
+      "description": "国际联合生物识别会议"
+    },
+    {
+      "name": "ESORICS 2026",
+      "rank": "B",
+      "deadline": "2026-04-22",
+      "conference_date": "2026年9月",
+      "website": "https://esorics2026.org/",
+      "description": "欧洲计算机安全研究研讨会，录用率16.1%"
+    }
+  ],
+  "last_updated": "2026-01-19",
+  "note": "会议截止日期可能变更，请以官网信息为准。数据来源：https://ccfddl.top/"
+}
