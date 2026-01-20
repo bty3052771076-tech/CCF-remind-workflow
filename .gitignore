@@ -53,3 +53,12 @@ desktop.ini
 
 # 输出文件
 .output
+*.output
+
+# 验证报告
+validation_report_*.json
+
+# 备份文件
+backups/
+*.backup
+*_backup_*.json

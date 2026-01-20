@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "id": "ccfddl",
+      "name": "CCF会议截止日期",
+      "url": "https://ccfddl.top/",
+      "priority": 1,
+      "enabled": true,
+      "type": "web",
+      "parser": "ccfddl",
+      "description": "CCF会议投稿截止日期聚合网站",
+      "update_frequency": "daily",
+      "fields": ["name", "rank", "deadline", "conference_date", "website", "description"]
+    },
+    {
+      "id": "manual",
+      "name": "手动维护",
+      "priority": 10,
+      "enabled": true,
+      "type": "manual",
+      "parser": "manual",
+      "description": "手动添加和维护的会议数据",
+      "data": []
+    }
+  ],
+  "categories": {
+    "ai": {
+      "name": "人工智能",
+      "keywords": ["AI", "Artificial Intelligence", "Machine Learning"],
+      "conferences": ["IJCAI", "AAAI", "ICML", "NeurIPS"],
+      "journals": ["TPAMI", "JMLR"]
+    },
+    "network": {
+      "name": "计算机网络",
+      "keywords": ["Network", "Communication"],
+      "conferences": ["SIGCOMM", "INFOCOM"],
+      "journals": ["TON"]
+    },
+    "security": {
+      "name": "网络安全",
+      "keywords": ["Security", "Privacy"],
+      "conferences": ["USENIX Security", "IEEE S&P", "ACM CCS"],
+      "journals": ["TIFS", "TDSC"]
+    },
+    "database": {
+      "name": "数据库",
+      "keywords": ["Database", "Data Management"],
+      "conferences": ["SIGMOD", "VLDB", "ICDE"],
+      "journals": ["TODS", "TKDE"]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-01-20",
+    "description": "数据源配置文件"
+  }
+}

@@ -1,0 +1,2647 @@
+{
+  "conferences": [
+    {
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "abbrev": "TPAMI",
+      "rank": "A",
+      "publisher": "IEEE",
+      "issn": "0162-8828",
+      "deadline": "2026-02-15",
+      "publication_frequency": "monthly",
+      "website": "https://www.computer.org/csdl/journal/tp",
+      "description": "模式分析与机器智能汇刊，CCF A类",
+      "fields": [
+        "计算机视觉",
+        "机器学习",
+        "人工智能"
+      ],
+      "impact_factor": 24.3,
+      "h_index": 280,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tpami",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+              "abbrev": "TPAMI",
+              "rank": "A",
+              "publisher": "IEEE",
+              "issn": "0162-8828",
+              "deadline": "2026-02-15",
+              "publication_frequency": "monthly",
+              "website": "https://www.computer.org/csdl/journal/tp",
+              "description": "模式分析与机器智能汇刊，CCF A类",
+              "fields": [
+                "计算机视觉",
+                "机器学习",
+                "人工智能"
+              ],
+              "impact_factor": 24.3,
+              "h_index": 280,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tpami"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Journal of Machine Learning Research",
+      "abbrev": "JMLR",
+      "rank": "A",
+      "publisher": "MIT Press",
+      "issn": "1532-4435",
+      "deadline": "2026-03-01",
+      "publication_frequency": "monthly",
+      "website": "https://www.jmlr.org/",
+      "description": "机器学习研究期刊，CCF A类",
+      "fields": [
+        "机器学习",
+        "人工智能",
+        "理论计算机"
+      ],
+      "impact_factor": 6.0,
+      "h_index": 195,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "jmlr",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Journal of Machine Learning Research",
+              "abbrev": "JMLR",
+              "rank": "A",
+              "publisher": "MIT Press",
+              "issn": "1532-4435",
+              "deadline": "2026-03-01",
+              "publication_frequency": "monthly",
+              "website": "https://www.jmlr.org/",
+              "description": "机器学习研究期刊，CCF A类",
+              "fields": [
+                "机器学习",
+                "人工智能",
+                "理论计算机"
+              ],
+              "impact_factor": 6.0,
+              "h_index": 195,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "jmlr"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "abbrev": "TNNLS",
+      "rank": "A",
+      "publisher": "IEEE",
+      "issn": "2162-237X",
+      "deadline": "2026-02-20",
+      "publication_frequency": "monthly",
+      "website": "https://www.ieee.org/",
+      "description": "神经网络与学习系统汇刊，CCF A类",
+      "fields": [
+        "神经网络",
+        "深度学习",
+        "人工智能"
+      ],
+      "impact_factor": 14.3,
+      "h_index": 210,
+      "submission_types": [
+        "regular_paper",
+        "letter"
+      ],
+      "type": "journal",
+      "id": "tnnls",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Neural Networks and Learning Systems",
+              "abbrev": "TNNLS",
+              "rank": "A",
+              "publisher": "IEEE",
+              "issn": "2162-237X",
+              "deadline": "2026-02-20",
+              "publication_frequency": "monthly",
+              "website": "https://www.ieee.org/",
+              "description": "神经网络与学习系统汇刊，CCF A类",
+              "fields": [
+                "神经网络",
+                "深度学习",
+                "人工智能"
+              ],
+              "impact_factor": 14.3,
+              "h_index": 210,
+              "submission_types": [
+                "regular_paper",
+                "letter"
+              ],
+              "type": "journal",
+              "id": "tnnls"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Database Systems",
+      "abbrev": "TODS",
+      "rank": "A",
+      "publisher": "ACM",
+      "issn": "0362-5915",
+      "deadline": "2026-03-15",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tods",
+      "description": "数据库系统汇刊，CCF A类",
+      "fields": [
+        "数据库",
+        "数据管理",
+        "信息系统"
+      ],
+      "impact_factor": 3.5,
+      "h_index": 120,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tods",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Database Systems",
+              "abbrev": "TODS",
+              "rank": "A",
+              "publisher": "ACM",
+              "issn": "0362-5915",
+              "deadline": "2026-03-15",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tods",
+              "description": "数据库系统汇刊，CCF A类",
+              "fields": [
+                "数据库",
+                "数据管理",
+                "信息系统"
+              ],
+              "impact_factor": 3.5,
+              "h_index": 120,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tods"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "abbrev": "TKDE",
+      "rank": "A",
+      "publisher": "IEEE",
+      "issn": "1041-4347",
+      "deadline": "2026-03-01",
+      "publication_frequency": "monthly",
+      "website": "https://www.computer.org/csdl/journal/tkde",
+      "description": "知识与数据工程汇刊，CCF A类",
+      "fields": [
+        "数据库",
+        "数据挖掘",
+        "机器学习"
+      ],
+      "impact_factor": 8.9,
+      "h_index": 185,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tkde",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Knowledge and Data Engineering",
+              "abbrev": "TKDE",
+              "rank": "A",
+              "publisher": "IEEE",
+              "issn": "1041-4347",
+              "deadline": "2026-03-01",
+              "publication_frequency": "monthly",
+              "website": "https://www.computer.org/csdl/journal/tkde",
+              "description": "知识与数据工程汇刊，CCF A类",
+              "fields": [
+                "数据库",
+                "数据挖掘",
+                "机器学习"
+              ],
+              "impact_factor": 8.9,
+              "h_index": 185,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tkde"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "VLDB Journal",
+      "abbrev": "VLDB J.",
+      "rank": "A",
+      "publisher": "Springer",
+      "issn": "1066-8888",
+      "deadline": "2026-04-01",
+      "publication_frequency": "bimonthly",
+      "website": "https://link.springer.com/journal/10678",
+      "description": "超大型数据库期刊，CCF A类",
+      "fields": [
+        "数据库",
+        "大数据",
+        "数据管理"
+      ],
+      "impact_factor": 4.5,
+      "h_index": 130,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "vldbj",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "VLDB Journal",
+              "abbrev": "VLDB J.",
+              "rank": "A",
+              "publisher": "Springer",
+              "issn": "1066-8888",
+              "deadline": "2026-04-01",
+              "publication_frequency": "bimonthly",
+              "website": "https://link.springer.com/journal/10678",
+              "description": "超大型数据库期刊，CCF A类",
+              "fields": [
+                "数据库",
+                "大数据",
+                "数据管理"
+              ],
+              "impact_factor": 4.5,
+              "h_index": 130,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "vldbj"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE/ACM Transactions on Networking",
+      "abbrev": "TON",
+      "rank": "A",
+      "publisher": "IEEE/ACM",
+      "issn": "1063-6692",
+      "deadline": "2026-02-28",
+      "publication_frequency": "bimonthly",
+      "website": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71",
+      "description": "网络汇刊，CCF A类",
+      "fields": [
+        "计算机网络",
+        "通信",
+        "网络协议"
+      ],
+      "impact_factor": 5.8,
+      "h_index": 165,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "ton",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE/ACM Transactions on Networking",
+              "abbrev": "TON",
+              "rank": "A",
+              "publisher": "IEEE/ACM",
+              "issn": "1063-6692",
+              "deadline": "2026-02-28",
+              "publication_frequency": "bimonthly",
+              "website": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71",
+              "description": "网络汇刊，CCF A类",
+              "fields": [
+                "计算机网络",
+                "通信",
+                "网络协议"
+              ],
+              "impact_factor": 5.8,
+              "h_index": 165,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "ton"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Information Forensics and Security",
+      "abbrev": "TIFS",
+      "rank": "A",
+      "publisher": "IEEE",
+      "issn": "1556-6013",
+      "deadline": "2026-03-10",
+      "publication_frequency": "monthly",
+      "website": "https://www.ieee.org/",
+      "description": "信息取证与安全汇刊，CCF A类",
+      "fields": [
+        "信息安全",
+        "密码学",
+        "数字取证"
+      ],
+      "impact_factor": 7.2,
+      "h_index": 140,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tifs",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Information Forensics and Security",
+              "abbrev": "TIFS",
+              "rank": "A",
+              "publisher": "IEEE",
+              "issn": "1556-6013",
+              "deadline": "2026-03-10",
+              "publication_frequency": "monthly",
+              "website": "https://www.ieee.org/",
+              "description": "信息取证与安全汇刊，CCF A类",
+              "fields": [
+                "信息安全",
+                "密码学",
+                "数字取证"
+              ],
+              "impact_factor": 7.2,
+              "h_index": 140,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tifs"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Privacy and Security",
+      "abbrev": "TAPS",
+      "rank": "A",
+      "publisher": "ACM",
+      "issn": "2471-2566",
+      "deadline": "2026-03-20",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/taps",
+      "description": "隐私与安全汇刊，CCF A类",
+      "fields": [
+        "网络安全",
+        "隐私保护",
+        "系统安全"
+      ],
+      "impact_factor": 3.5,
+      "h_index": 85,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "taps",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Privacy and Security",
+              "abbrev": "TAPS",
+              "rank": "A",
+              "publisher": "ACM",
+              "issn": "2471-2566",
+              "deadline": "2026-03-20",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/taps",
+              "description": "隐私与安全汇刊，CCF A类",
+              "fields": [
+                "网络安全",
+                "隐私保护",
+                "系统安全"
+              ],
+              "impact_factor": 3.5,
+              "h_index": 85,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "taps"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Journal of Cryptology",
+      "abbrev": "J. Cryptol.",
+      "rank": "A",
+      "publisher": "Springer",
+      "issn": "0933-2790",
+      "deadline": "2026-04-15",
+      "publication_frequency": "bimonthly",
+      "website": "https://link.springer.com/journal/145",
+      "description": "密码学期刊，CCF A类",
+      "fields": [
+        "密码学",
+        "理论计算机",
+        "网络安全"
+      ],
+      "impact_factor": 2.8,
+      "h_index": 75,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "jc",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Journal of Cryptology",
+              "abbrev": "J. Cryptol.",
+              "rank": "A",
+              "publisher": "Springer",
+              "issn": "0933-2790",
+              "deadline": "2026-04-15",
+              "publication_frequency": "bimonthly",
+              "website": "https://link.springer.com/journal/145",
+              "description": "密码学期刊，CCF A类",
+              "fields": [
+                "密码学",
+                "理论计算机",
+                "网络安全"
+              ],
+              "impact_factor": 2.8,
+              "h_index": 75,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "jc"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Software Engineering",
+      "abbrev": "TSE",
+      "rank": "A",
+      "publisher": "IEEE",
+      "issn": "0098-5589",
+      "deadline": "2026-03-05",
+      "publication_frequency": "monthly",
+      "website": "https://www.computer.org/csdl/journal/tse",
+      "description": "软件工程汇刊，CCF A类",
+      "fields": [
+        "软件工程",
+        "编程语言",
+        "软件测试"
+      ],
+      "impact_factor": 6.2,
+      "h_index": 155,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tse",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Software Engineering",
+              "abbrev": "TSE",
+              "rank": "A",
+              "publisher": "IEEE",
+              "issn": "0098-5589",
+              "deadline": "2026-03-05",
+              "publication_frequency": "monthly",
+              "website": "https://www.computer.org/csdl/journal/tse",
+              "description": "软件工程汇刊，CCF A类",
+              "fields": [
+                "软件工程",
+                "编程语言",
+                "软件测试"
+              ],
+              "impact_factor": 6.2,
+              "h_index": 155,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tse"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Software Engineering and Methodology",
+      "abbrev": "TOSEM",
+      "rank": "B",
+      "publisher": "ACM",
+      "issn": "1049-331X",
+      "deadline": "2026-03-25",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tosem",
+      "description": "软件工程与方法论汇刊，CCF B类",
+      "fields": [
+        "软件工程",
+        "软件方法论",
+        "软件开发"
+      ],
+      "impact_factor": 3.5,
+      "h_index": 95,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tosem",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Software Engineering and Methodology",
+              "abbrev": "TOSEM",
+              "rank": "B",
+              "publisher": "ACM",
+              "issn": "1049-331X",
+              "deadline": "2026-03-25",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tosem",
+              "description": "软件工程与方法论汇刊，CCF B类",
+              "fields": [
+                "软件工程",
+                "软件方法论",
+                "软件开发"
+              ],
+              "impact_factor": 3.5,
+              "h_index": 95,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tosem"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Journal of the ACM",
+      "abbrev": "JACM",
+      "rank": "A",
+      "publisher": "ACM",
+      "issn": "0004-5411",
+      "deadline": "2026-04-01",
+      "publication_frequency": "bimonthly",
+      "website": "https://dl.acm.org/journal/jacm",
+      "description": "ACM期刊，理论计算机顶刊，CCF A类",
+      "fields": [
+        "理论计算机",
+        "算法",
+        "计算复杂性"
+      ],
+      "impact_factor": 3.5,
+      "h_index": 130,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "jacm",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Journal of the ACM",
+              "abbrev": "JACM",
+              "rank": "A",
+              "publisher": "ACM",
+              "issn": "0004-5411",
+              "deadline": "2026-04-01",
+              "publication_frequency": "bimonthly",
+              "website": "https://dl.acm.org/journal/jacm",
+              "description": "ACM期刊，理论计算机顶刊，CCF A类",
+              "fields": [
+                "理论计算机",
+                "算法",
+                "计算复杂性"
+              ],
+              "impact_factor": 3.5,
+              "h_index": 130,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "jacm"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SIAM Journal on Computing",
+      "abbrev": "SICOMP",
+      "rank": "A",
+      "publisher": "SIAM",
+      "issn": "0097-5397",
+      "deadline": "2026-03-30",
+      "publication_frequency": "bimonthly",
+      "website": "https://epubs.siam.org/journal/sjcomp",
+      "description": "SIAM计算期刊，CCF A类",
+      "fields": [
+        "理论计算机",
+        "算法",
+        "数学"
+      ],
+      "impact_factor": 2.5,
+      "h_index": 110,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "sicomp",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SIAM Journal on Computing",
+              "abbrev": "SICOMP",
+              "rank": "A",
+              "publisher": "SIAM",
+              "issn": "0097-5397",
+              "deadline": "2026-03-30",
+              "publication_frequency": "bimonthly",
+              "website": "https://epubs.siam.org/journal/sjcomp",
+              "description": "SIAM计算期刊，CCF A类",
+              "fields": [
+                "理论计算机",
+                "算法",
+                "数学"
+              ],
+              "impact_factor": 2.5,
+              "h_index": 110,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "sicomp"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Computer-Human Interaction",
+      "abbrev": "TOCHI",
+      "rank": "A",
+      "publisher": "ACM",
+      "issn": "1073-0516",
+      "deadline": "2026-04-10",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tochi",
+      "description": "人机交互汇刊，CCF A类",
+      "fields": [
+        "人机交互",
+        "用户界面",
+        "用户体验"
+      ],
+      "impact_factor": 4.8,
+      "h_index": 125,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tochi",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Computer-Human Interaction",
+              "abbrev": "TOCHI",
+              "rank": "A",
+              "publisher": "ACM",
+              "issn": "1073-0516",
+              "deadline": "2026-04-10",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tochi",
+              "description": "人机交互汇刊，CCF A类",
+              "fields": [
+                "人机交互",
+                "用户界面",
+                "用户体验"
+              ],
+              "impact_factor": 4.8,
+              "h_index": 125,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tochi"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Computer Systems",
+      "abbrev": "TOCS",
+      "rank": "A",
+      "publisher": "ACM",
+      "issn": "0734-2071",
+      "deadline": "2026-03-15",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tocs",
+      "description": "计算机系统汇刊，CCF A类",
+      "fields": [
+        "操作系统",
+        "分布式系统",
+        "计算机架构"
+      ],
+      "impact_factor": 3.2,
+      "h_index": 105,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "tocs",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Computer Systems",
+              "abbrev": "TOCS",
+              "rank": "A",
+              "publisher": "ACM",
+              "issn": "0734-2071",
+              "deadline": "2026-03-15",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tocs",
+              "description": "计算机系统汇刊，CCF A类",
+              "fields": [
+                "操作系统",
+                "分布式系统",
+                "计算机架构"
+              ],
+              "impact_factor": 3.2,
+              "h_index": 105,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "tocs"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "International Journal of Computer Vision",
+      "abbrev": "IJCV",
+      "rank": "A",
+      "publisher": "Springer",
+      "issn": "0920-5691",
+      "deadline": "2026-03-20",
+      "publication_frequency": "monthly",
+      "website": "https://link.springer.com/journal/11263",
+      "description": "国际计算机视觉期刊，CCF A类",
+      "fields": [
+        "计算机视觉",
+        "图像处理",
+        "模式识别"
+      ],
+      "impact_factor": 19.5,
+      "h_index": 220,
+      "submission_types": [
+        "regular_paper"
+      ],
+      "type": "journal",
+      "id": "ijcv",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "International Journal of Computer Vision",
+              "abbrev": "IJCV",
+              "rank": "A",
+              "publisher": "Springer",
+              "issn": "0920-5691",
+              "deadline": "2026-03-20",
+              "publication_frequency": "monthly",
+              "website": "https://link.springer.com/journal/11263",
+              "description": "国际计算机视觉期刊，CCF A类",
+              "fields": [
+                "计算机视觉",
+                "图像处理",
+                "模式识别"
+              ],
+              "impact_factor": 19.5,
+              "h_index": 220,
+              "submission_types": [
+                "regular_paper"
+              ],
+              "type": "journal",
+              "id": "ijcv"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM SIGCOMM Computer Communication Review",
+      "abbrev": "CCR",
+      "rank": "B",
+      "publisher": "ACM",
+      "deadline": "2026-04-01",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/ccr",
+      "description": "SIGCOMM计算机通信评论",
+      "fields": [
+        "计算机网络"
+      ],
+      "impact_factor": 3.2,
+      "type": "journal",
+      "id": "ccr",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM SIGCOMM Computer Communication Review",
+              "abbrev": "CCR",
+              "rank": "B",
+              "publisher": "ACM",
+              "deadline": "2026-04-01",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/ccr",
+              "description": "SIGCOMM计算机通信评论",
+              "fields": [
+                "计算机网络"
+              ],
+              "impact_factor": 3.2,
+              "type": "journal",
+              "id": "ccr"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Computer Networks",
+      "abbrev": "Comput. Netw.",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-03-15",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/computer-networks",
+      "description": "计算机网络期刊",
+      "fields": [
+        "计算机网络",
+        "通信"
+      ],
+      "impact_factor": 5.5,
+      "type": "journal",
+      "id": "cn",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Computer Networks",
+              "abbrev": "Comput. Netw.",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-03-15",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/computer-networks",
+              "description": "计算机网络期刊",
+              "fields": [
+                "计算机网络",
+                "通信"
+              ],
+              "impact_factor": 5.5,
+              "type": "journal",
+              "id": "cn"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Automated Software Engineering",
+      "abbrev": "ASE",
+      "rank": "B",
+      "publisher": "Springer",
+      "deadline": "2026-04-10",
+      "publication_frequency": "bimonthly",
+      "website": "https://link.springer.com/journal/10515",
+      "description": "自动化软件工程",
+      "fields": [
+        "软件工程",
+        "自动化"
+      ],
+      "impact_factor": 3.8,
+      "type": "journal",
+      "id": "ase",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Automated Software Engineering",
+              "abbrev": "ASE",
+              "rank": "B",
+              "publisher": "Springer",
+              "deadline": "2026-04-10",
+              "publication_frequency": "bimonthly",
+              "website": "https://link.springer.com/journal/10515",
+              "description": "自动化软件工程",
+              "fields": [
+                "软件工程",
+                "自动化"
+              ],
+              "impact_factor": 3.8,
+              "type": "journal",
+              "id": "ase"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Empirical Software Engineering",
+      "abbrev": "Empir. Softw. Eng.",
+      "rank": "B",
+      "publisher": "Springer",
+      "deadline": "2026-04-15",
+      "publication_frequency": "monthly",
+      "website": "https://link.springer.com/journal/10664",
+      "description": "实证软件工程",
+      "fields": [
+        "软件工程"
+      ],
+      "impact_factor": 3.5,
+      "type": "journal",
+      "id": "ese",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Empirical Software Engineering",
+              "abbrev": "Empir. Softw. Eng.",
+              "rank": "B",
+              "publisher": "Springer",
+              "deadline": "2026-04-15",
+              "publication_frequency": "monthly",
+              "website": "https://link.springer.com/journal/10664",
+              "description": "实证软件工程",
+              "fields": [
+                "软件工程"
+              ],
+              "impact_factor": 3.5,
+              "type": "journal",
+              "id": "ese"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Software: Practice and Experience",
+      "abbrev": "Softw. Pract. Exp.",
+      "rank": "C",
+      "publisher": "Wiley",
+      "deadline": "2026-04-20",
+      "publication_frequency": "monthly",
+      "website": "https://onlinelibrary.wiley.com/journal/1097024X",
+      "description": "软件：实践与经验",
+      "fields": [
+        "软件工程"
+      ],
+      "impact_factor": 2.1,
+      "type": "journal",
+      "id": "spe",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Software: Practice and Experience",
+              "abbrev": "Softw. Pract. Exp.",
+              "rank": "C",
+              "publisher": "Wiley",
+              "deadline": "2026-04-20",
+              "publication_frequency": "monthly",
+              "website": "https://onlinelibrary.wiley.com/journal/1097024X",
+              "description": "软件：实践与经验",
+              "fields": [
+                "软件工程"
+              ],
+              "impact_factor": 2.1,
+              "type": "journal",
+              "id": "spe"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Theoretical Computer Science",
+      "abbrev": "Theor. Comput. Sci.",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-05-01",
+      "publication_frequency": "semimonthly",
+      "website": "https://www.journals.elsevier.com/theoretical-computer-science",
+      "description": "理论计算机科学",
+      "fields": [
+        "理论计算机",
+        "算法"
+      ],
+      "impact_factor": 1.3,
+      "type": "journal",
+      "id": "tcs",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Theoretical Computer Science",
+              "abbrev": "Theor. Comput. Sci.",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-05-01",
+              "publication_frequency": "semimonthly",
+              "website": "https://www.journals.elsevier.com/theoretical-computer-science",
+              "description": "理论计算机科学",
+              "fields": [
+                "理论计算机",
+                "算法"
+              ],
+              "impact_factor": 1.3,
+              "type": "journal",
+              "id": "tcs"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Algorithmica",
+      "abbrev": "Algorithmica",
+      "rank": "B",
+      "publisher": "Springer",
+      "deadline": "2026-04-25",
+      "publication_frequency": "monthly",
+      "website": "https://link.springer.com/journal/453",
+      "description": "算法期刊",
+      "fields": [
+        "算法",
+        "理论计算机"
+      ],
+      "impact_factor": 1.5,
+      "type": "journal",
+      "id": "a",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Algorithmica",
+              "abbrev": "Algorithmica",
+              "rank": "B",
+              "publisher": "Springer",
+              "deadline": "2026-04-25",
+              "publication_frequency": "monthly",
+              "website": "https://link.springer.com/journal/453",
+              "description": "算法期刊",
+              "fields": [
+                "算法",
+                "理论计算机"
+              ],
+              "impact_factor": 1.5,
+              "type": "journal",
+              "id": "a"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Information and Computation",
+      "abbrev": "I&C",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-05-05",
+      "publication_frequency": "bimonthly",
+      "website": "https://www.journals.elsevier.com/information-and-computation",
+      "description": "信息与计算",
+      "fields": [
+        "理论计算机"
+      ],
+      "impact_factor": 1.8,
+      "type": "journal",
+      "id": "ic",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Information and Computation",
+              "abbrev": "I&C",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-05-05",
+              "publication_frequency": "bimonthly",
+              "website": "https://www.journals.elsevier.com/information-and-computation",
+              "description": "信息与计算",
+              "fields": [
+                "理论计算机"
+              ],
+              "impact_factor": 1.8,
+              "type": "journal",
+              "id": "ic"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "International Journal of Human-Computer Studies",
+      "abbrev": "IJHCS",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-04-05",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/international-journal-of-human-computer-studies",
+      "description": "国际人机交互研究期刊",
+      "fields": [
+        "人机交互"
+      ],
+      "impact_factor": 3.8,
+      "type": "journal",
+      "id": "ijhcs",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "International Journal of Human-Computer Studies",
+              "abbrev": "IJHCS",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-04-05",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/international-journal-of-human-computer-studies",
+              "description": "国际人机交互研究期刊",
+              "fields": [
+                "人机交互"
+              ],
+              "impact_factor": 3.8,
+              "type": "journal",
+              "id": "ijhcs"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "abbrev": "HCI",
+      "rank": "B",
+      "publisher": "Taylor & Francis",
+      "deadline": "2026-04-15",
+      "publication_frequency": "bimonthly",
+      "website": "https://www.tandfonline.com/toc/hhci20/current",
+      "description": "人机交互期刊",
+      "fields": [
+        "人机交互"
+      ],
+      "impact_factor": 3.5,
+      "type": "journal",
+      "id": "hci",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Human-Computer Interaction",
+              "abbrev": "HCI",
+              "rank": "B",
+              "publisher": "Taylor & Francis",
+              "deadline": "2026-04-15",
+              "publication_frequency": "bimonthly",
+              "website": "https://www.tandfonline.com/toc/hhci20/current",
+              "description": "人机交互期刊",
+              "fields": [
+                "人机交互"
+              ],
+              "impact_factor": 3.5,
+              "type": "journal",
+              "id": "hci"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Computer Architecture Letters",
+      "abbrev": "CAL",
+      "rank": "C",
+      "publisher": "IEEE",
+      "deadline": "2026-05-10",
+      "publication_frequency": "quarterly",
+      "website": "https://www.computer.org/csdl/journal/cal",
+      "description": "IEEE计算机架构通讯",
+      "fields": [
+        "计算机架构"
+      ],
+      "impact_factor": 1.8,
+      "type": "journal",
+      "id": "cal",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Computer Architecture Letters",
+              "abbrev": "CAL",
+              "rank": "C",
+              "publisher": "IEEE",
+              "deadline": "2026-05-10",
+              "publication_frequency": "quarterly",
+              "website": "https://www.computer.org/csdl/journal/cal",
+              "description": "IEEE计算机架构通讯",
+              "fields": [
+                "计算机架构"
+              ],
+              "impact_factor": 1.8,
+              "type": "journal",
+              "id": "cal"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Sensor Networks",
+      "abbrev": "TOSN",
+      "rank": "B",
+      "publisher": "ACM",
+      "deadline": "2026-04-20",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tosn",
+      "description": "传感器网络汇刊",
+      "fields": [
+        "物联网",
+        "传感器网络"
+      ],
+      "impact_factor": 2.8,
+      "type": "journal",
+      "id": "tosn",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Sensor Networks",
+              "abbrev": "TOSN",
+              "rank": "B",
+              "publisher": "ACM",
+              "deadline": "2026-04-20",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tosn",
+              "description": "传感器网络汇刊",
+              "fields": [
+                "物联网",
+                "传感器网络"
+              ],
+              "impact_factor": 2.8,
+              "type": "journal",
+              "id": "tosn"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Internet of Things Journal",
+      "abbrev": "IOT-J",
+      "rank": "B",
+      "publisher": "IEEE",
+      "deadline": "2026-04-25",
+      "publication_frequency": "monthly",
+      "website": "https://www.ieee.org/",
+      "description": "IEEE物联网期刊",
+      "fields": [
+        "物联网",
+        "嵌入式系统"
+      ],
+      "impact_factor": 9.5,
+      "type": "journal",
+      "id": "iotj",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Internet of Things Journal",
+              "abbrev": "IOT-J",
+              "rank": "B",
+              "publisher": "IEEE",
+              "deadline": "2026-04-25",
+              "publication_frequency": "monthly",
+              "website": "https://www.ieee.org/",
+              "description": "IEEE物联网期刊",
+              "fields": [
+                "物联网",
+                "嵌入式系统"
+              ],
+              "impact_factor": 9.5,
+              "type": "journal",
+              "id": "iotj"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Information Systems",
+      "abbrev": "TOIS",
+      "rank": "A",
+      "publisher": "ACM",
+      "deadline": "2026-04-10",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tois",
+      "description": "信息系统汇刊，CCF A类",
+      "fields": [
+        "信息系统",
+        "信息检索"
+      ],
+      "impact_factor": 5.5,
+      "type": "journal",
+      "id": "tois",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Information Systems",
+              "abbrev": "TOIS",
+              "rank": "A",
+              "publisher": "ACM",
+              "deadline": "2026-04-10",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tois",
+              "description": "信息系统汇刊，CCF A类",
+              "fields": [
+                "信息系统",
+                "信息检索"
+              ],
+              "impact_factor": 5.5,
+              "type": "journal",
+              "id": "tois"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Information Systems Research",
+      "abbrev": "ISR",
+      "rank": "A",
+      "publisher": "INFORMS",
+      "deadline": "2026-04-15",
+      "publication_frequency": "quarterly",
+      "website": "https://pubsonline.informs.org/journal/isre",
+      "description": "信息系统研究，CCF A类",
+      "fields": [
+        "信息系统",
+        "管理信息系统"
+      ],
+      "impact_factor": 4.8,
+      "type": "journal",
+      "id": "isr",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Information Systems Research",
+              "abbrev": "ISR",
+              "rank": "A",
+              "publisher": "INFORMS",
+              "deadline": "2026-04-15",
+              "publication_frequency": "quarterly",
+              "website": "https://pubsonline.informs.org/journal/isre",
+              "description": "信息系统研究，CCF A类",
+              "fields": [
+                "信息系统",
+                "管理信息系统"
+              ],
+              "impact_factor": 4.8,
+              "type": "journal",
+              "id": "isr"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "MIS Quarterly",
+      "abbrev": "MIS Q.",
+      "rank": "A",
+      "publisher": "University of Minnesota",
+      "deadline": "2026-05-01",
+      "publication_frequency": "quarterly",
+      "website": "https://misq.umn.edu/",
+      "description": "MIS季刊，信息系统顶刊，CCF A类",
+      "fields": [
+        "管理信息系统",
+        "信息系统"
+      ],
+      "impact_factor": 8.5,
+      "type": "journal",
+      "id": "misq",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "MIS Quarterly",
+              "abbrev": "MIS Q.",
+              "rank": "A",
+              "publisher": "University of Minnesota",
+              "deadline": "2026-05-01",
+              "publication_frequency": "quarterly",
+              "website": "https://misq.umn.edu/",
+              "description": "MIS季刊，信息系统顶刊，CCF A类",
+              "fields": [
+                "管理信息系统",
+                "信息系统"
+              ],
+              "impact_factor": 8.5,
+              "type": "journal",
+              "id": "misq"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
+      "abbrev": "TOMM",
+      "rank": "B",
+      "publisher": "ACM",
+      "deadline": "2026-04-12",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tomm",
+      "description": "多媒体计算、通信与应用汇刊",
+      "fields": [
+        "多媒体",
+        "计算机视觉"
+      ],
+      "impact_factor": 3.2,
+      "type": "journal",
+      "id": "tomm",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
+              "abbrev": "TOMM",
+              "rank": "B",
+              "publisher": "ACM",
+              "deadline": "2026-04-12",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tomm",
+              "description": "多媒体计算、通信与应用汇刊",
+              "fields": [
+                "多媒体",
+                "计算机视觉"
+              ],
+              "impact_factor": 3.2,
+              "type": "journal",
+              "id": "tomm"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Multimedia",
+      "abbrev": "TMM",
+      "rank": "B",
+      "publisher": "IEEE",
+      "deadline": "2026-04-18",
+      "publication_frequency": "bimonthly",
+      "website": "https://www.ieee.org/",
+      "description": "多媒体汇刊",
+      "fields": [
+        "多媒体",
+        "图像处理"
+      ],
+      "impact_factor": 7.5,
+      "type": "journal",
+      "id": "tmm",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Multimedia",
+              "abbrev": "TMM",
+              "rank": "B",
+              "publisher": "IEEE",
+              "deadline": "2026-04-18",
+              "publication_frequency": "bimonthly",
+              "website": "https://www.ieee.org/",
+              "description": "多媒体汇刊",
+              "fields": [
+                "多媒体",
+                "图像处理"
+              ],
+              "impact_factor": 7.5,
+              "type": "journal",
+              "id": "tmm"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Computational Linguistics",
+      "abbrev": "CL",
+      "rank": "A",
+      "publisher": "MIT Press",
+      "deadline": "2026-05-05",
+      "publication_frequency": "quarterly",
+      "website": "https://direct.mit.edu/coli/",
+      "description": "计算语言学，CCF A类",
+      "fields": [
+        "自然语言处理",
+        "计算语言学"
+      ],
+      "impact_factor": 4.5,
+      "type": "journal",
+      "id": "cl",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Computational Linguistics",
+              "abbrev": "CL",
+              "rank": "A",
+              "publisher": "MIT Press",
+              "deadline": "2026-05-05",
+              "publication_frequency": "quarterly",
+              "website": "https://direct.mit.edu/coli/",
+              "description": "计算语言学，CCF A类",
+              "fields": [
+                "自然语言处理",
+                "计算语言学"
+              ],
+              "impact_factor": 4.5,
+              "type": "journal",
+              "id": "cl"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM Transactions on Speech and Language Processing",
+      "abbrev": "TSLP",
+      "rank": "C",
+      "publisher": "ACM",
+      "deadline": "2026-05-10",
+      "publication_frequency": "quarterly",
+      "website": "https://dl.acm.org/journal/tslp",
+      "description": "语音与语言处理汇刊",
+      "fields": [
+        "自然语言处理",
+        "语音识别"
+      ],
+      "impact_factor": 2.1,
+      "type": "journal",
+      "id": "tslp",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM Transactions on Speech and Language Processing",
+              "abbrev": "TSLP",
+              "rank": "C",
+              "publisher": "ACM",
+              "deadline": "2026-05-10",
+              "publication_frequency": "quarterly",
+              "website": "https://dl.acm.org/journal/tslp",
+              "description": "语音与语言处理汇刊",
+              "fields": [
+                "自然语言处理",
+                "语音识别"
+              ],
+              "impact_factor": 2.1,
+              "type": "journal",
+              "id": "tslp"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Artificial Intelligence",
+      "abbrev": "AI",
+      "rank": "A",
+      "publisher": "Elsevier",
+      "deadline": "2026-05-15",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/artificial-intelligence",
+      "description": "人工智能，CCF A类",
+      "fields": [
+        "人工智能",
+        "机器学习"
+      ],
+      "impact_factor": 14.5,
+      "type": "journal",
+      "id": "ai",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Artificial Intelligence",
+              "abbrev": "AI",
+              "rank": "A",
+              "publisher": "Elsevier",
+              "deadline": "2026-05-15",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/artificial-intelligence",
+              "description": "人工智能，CCF A类",
+              "fields": [
+                "人工智能",
+                "机器学习"
+              ],
+              "impact_factor": 14.5,
+              "type": "journal",
+              "id": "ai"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Machine Learning",
+      "abbrev": "ML",
+      "rank": "A",
+      "publisher": "Springer",
+      "deadline": "2026-05-20",
+      "publication_frequency": "monthly",
+      "website": "https://link.springer.com/journal/10994",
+      "description": "机器学习，CCF A类",
+      "fields": [
+        "机器学习"
+      ],
+      "impact_factor": 8.5,
+      "type": "journal",
+      "id": "ml",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Machine Learning",
+              "abbrev": "ML",
+              "rank": "A",
+              "publisher": "Springer",
+              "deadline": "2026-05-20",
+              "publication_frequency": "monthly",
+              "website": "https://link.springer.com/journal/10994",
+              "description": "机器学习，CCF A类",
+              "fields": [
+                "机器学习"
+              ],
+              "impact_factor": 8.5,
+              "type": "journal",
+              "id": "ml"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Neural Computation",
+      "abbrev": "Neural Comput.",
+      "rank": "B",
+      "publisher": "MIT Press",
+      "deadline": "2026-05-25",
+      "publication_frequency": "monthly",
+      "website": "https://direct.mit.edu/neco/",
+      "description": "神经计算",
+      "fields": [
+        "神经网络",
+        "计算神经科学"
+      ],
+      "impact_factor": 3.5,
+      "type": "journal",
+      "id": "nc",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Neural Computation",
+              "abbrev": "Neural Comput.",
+              "rank": "B",
+              "publisher": "MIT Press",
+              "deadline": "2026-05-25",
+              "publication_frequency": "monthly",
+              "website": "https://direct.mit.edu/neco/",
+              "description": "神经计算",
+              "fields": [
+                "神经网络",
+                "计算神经科学"
+              ],
+              "impact_factor": 3.5,
+              "type": "journal",
+              "id": "nc"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Neural Networks",
+      "abbrev": "Neural Netw.",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-06-01",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/neural-networks",
+      "description": "神经网络",
+      "fields": [
+        "神经网络",
+        "人工智能"
+      ],
+      "impact_factor": 7.8,
+      "type": "journal",
+      "id": "nn",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Neural Networks",
+              "abbrev": "Neural Netw.",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-06-01",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/neural-networks",
+              "description": "神经网络",
+              "fields": [
+                "神经网络",
+                "人工智能"
+              ],
+              "impact_factor": 7.8,
+              "type": "journal",
+              "id": "nn"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Performance Evaluation",
+      "abbrev": "Perform. Eval.",
+      "rank": "C",
+      "publisher": "Elsevier",
+      "deadline": "2026-06-05",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/performance-evaluation",
+      "description": "性能评估",
+      "fields": [
+        "性能评估",
+        "计算机网络"
+      ],
+      "impact_factor": 2.5,
+      "type": "journal",
+      "id": "pe",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Performance Evaluation",
+              "abbrev": "Perform. Eval.",
+              "rank": "C",
+              "publisher": "Elsevier",
+              "deadline": "2026-06-05",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/performance-evaluation",
+              "description": "性能评估",
+              "fields": [
+                "性能评估",
+                "计算机网络"
+              ],
+              "impact_factor": 2.5,
+              "type": "journal",
+              "id": "pe"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Parallel and Distributed Systems",
+      "abbrev": "TPDS",
+      "rank": "A",
+      "publisher": "IEEE",
+      "deadline": "2026-05-30",
+      "publication_frequency": "monthly",
+      "website": "https://www.computer.org/csdl/journal/tpds",
+      "description": "并行与分布式系统汇刊，CCF A类",
+      "fields": [
+        "并行计算",
+        "分布式系统"
+      ],
+      "impact_factor": 5.5,
+      "type": "journal",
+      "id": "tpds",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Parallel and Distributed Systems",
+              "abbrev": "TPDS",
+              "rank": "A",
+              "publisher": "IEEE",
+              "deadline": "2026-05-30",
+              "publication_frequency": "monthly",
+              "website": "https://www.computer.org/csdl/journal/tpds",
+              "description": "并行与分布式系统汇刊，CCF A类",
+              "fields": [
+                "并行计算",
+                "分布式系统"
+              ],
+              "impact_factor": 5.5,
+              "type": "journal",
+              "id": "tpds"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Journal of Parallel and Distributed Computing",
+      "abbrev": "JPDC",
+      "rank": "B",
+      "publisher": "Elsevier",
+      "deadline": "2026-06-10",
+      "publication_frequency": "monthly",
+      "website": "https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing",
+      "description": "并行与分布式计算",
+      "fields": [
+        "并行计算",
+        "分布式系统"
+      ],
+      "impact_factor": 2.8,
+      "type": "journal",
+      "id": "jpdc",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Journal of Parallel and Distributed Computing",
+              "abbrev": "JPDC",
+              "rank": "B",
+              "publisher": "Elsevier",
+              "deadline": "2026-06-10",
+              "publication_frequency": "monthly",
+              "website": "https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing",
+              "description": "并行与分布式计算",
+              "fields": [
+                "并行计算",
+                "分布式系统"
+              ],
+              "impact_factor": 2.8,
+              "type": "journal",
+              "id": "jpdc"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Visualization and Computer Graphics",
+      "abbrev": "TVCG",
+      "rank": "A",
+      "publisher": "IEEE",
+      "deadline": "2026-06-15",
+      "publication_frequency": "monthly",
+      "website": "https://www.computer.org/csdl/journal/tvcg",
+      "description": "可视化与计算机图形学汇刊，CCF A类",
+      "fields": [
+        "计算机图形学",
+        "可视化"
+      ],
+      "impact_factor": 5.5,
+      "type": "journal",
+      "id": "tvcg",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Visualization and Computer Graphics",
+              "abbrev": "TVCG",
+              "rank": "A",
+              "publisher": "IEEE",
+              "deadline": "2026-06-15",
+              "publication_frequency": "monthly",
+              "website": "https://www.computer.org/csdl/journal/tvcg",
+              "description": "可视化与计算机图形学汇刊，CCF A类",
+              "fields": [
+                "计算机图形学",
+                "可视化"
+              ],
+              "impact_factor": 5.5,
+              "type": "journal",
+              "id": "tvcg"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Computer Graphics Forum",
+      "abbrev": "CGF",
+      "rank": "B",
+      "publisher": "Wiley",
+      "deadline": "2026-06-20",
+      "publication_frequency": "bimonthly",
+      "website": "https://onlinelibrary.wiley.com/journal/14678659",
+      "description": "计算机图形学论坛",
+      "fields": [
+        "计算机图形学"
+      ],
+      "impact_factor": 2.8,
+      "type": "journal",
+      "id": "cgf",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Computer Graphics Forum",
+              "abbrev": "CGF",
+              "rank": "B",
+              "publisher": "Wiley",
+              "deadline": "2026-06-20",
+              "publication_frequency": "bimonthly",
+              "website": "https://onlinelibrary.wiley.com/journal/14678659",
+              "description": "计算机图形学论坛",
+              "fields": [
+                "计算机图形学"
+              ],
+              "impact_factor": 2.8,
+              "type": "journal",
+              "id": "cgf"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE Transactions on Dependable and Secure Computing",
+      "abbrev": "TDSC",
+      "rank": "A",
+      "publisher": "IEEE",
+      "deadline": "2026-06-25",
+      "publication_frequency": "bimonthly",
+      "website": "https://www.computer.org/csdl/journal/tdsc",
+      "description": "可信与安全计算汇刊，CCF A类",
+      "fields": [
+        "网络安全",
+        "可信计算"
+      ],
+      "impact_factor": 5.8,
+      "type": "journal",
+      "id": "tdsc",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE Transactions on Dependable and Secure Computing",
+              "abbrev": "TDSC",
+              "rank": "A",
+              "publisher": "IEEE",
+              "deadline": "2026-06-25",
+              "publication_frequency": "bimonthly",
+              "website": "https://www.computer.org/csdl/journal/tdsc",
+              "description": "可信与安全计算汇刊，CCF A类",
+              "fields": [
+                "网络安全",
+                "可信计算"
+              ],
+              "impact_factor": 5.8,
+              "type": "journal",
+              "id": "tdsc"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "Bioinformatics",
+      "abbrev": "Bioinformatics",
+      "rank": "B",
+      "publisher": "Oxford",
+      "deadline": "2026-07-01",
+      "publication_frequency": "semimonthly",
+      "website": "https://academic.oup.com/bioinformatics",
+      "description": "生物信息学",
+      "fields": [
+        "生物信息学",
+        "计算生物学"
+      ],
+      "impact_factor": 5.5,
+      "type": "journal",
+      "id": "b",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "Bioinformatics",
+              "abbrev": "Bioinformatics",
+              "rank": "B",
+              "publisher": "Oxford",
+              "deadline": "2026-07-01",
+              "publication_frequency": "semimonthly",
+              "website": "https://academic.oup.com/bioinformatics",
+              "description": "生物信息学",
+              "fields": [
+                "生物信息学",
+                "计算生物学"
+              ],
+              "impact_factor": 5.5,
+              "type": "journal",
+              "id": "b"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+      "abbrev": "TCBB",
+      "rank": "B",
+      "publisher": "IEEE/ACM",
+      "deadline": "2026-07-05",
+      "publication_frequency": "bimonthly",
+      "website": "https://www.computer.org/csdl/journal/tcbb",
+      "description": "计算生物学与生物信息学汇刊",
+      "fields": [
+        "生物信息学",
+        "计算生物学"
+      ],
+      "impact_factor": 3.5,
+      "type": "journal",
+      "id": "tcbb",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+              "abbrev": "TCBB",
+              "rank": "B",
+              "publisher": "IEEE/ACM",
+              "deadline": "2026-07-05",
+              "publication_frequency": "bimonthly",
+              "website": "https://www.computer.org/csdl/journal/tcbb",
+              "description": "计算生物学与生物信息学汇刊",
+              "fields": [
+                "生物信息学",
+                "计算生物学"
+              ],
+              "impact_factor": 3.5,
+              "type": "journal",
+              "id": "tcbb"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2026-01-20 10:56:48",
+    "total_count": 49
+  }
+}

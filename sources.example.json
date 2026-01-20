@@ -1,0 +1,105 @@
+{
+  "sources": [
+    {
+      "id": "ccfddl",
+      "name": "CCF会议截止日期",
+      "url": "https://ccfddl.top/",
+      "priority": 1,
+      "enabled": true,
+      "type": "web",
+      "parser": "ccfddl",
+      "description": "CCF会议投稿截止日期聚合网站，包含大部分CCF推荐会议",
+      "update_frequency": "daily",
+      "fields": ["name", "rank", "deadline", "conference_date", "website", "description"]
+    },
+    {
+      "id": "ccf_official",
+      "name": "CCF官方网站",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "priority": 2,
+      "enabled": false,
+      "type": "web",
+      "parser": "ccf_official",
+      "description": "CCF官方推荐目录，用于验证会议等级",
+      "update_frequency": "weekly",
+      "fields": ["name", "rank"]
+    },
+    {
+      "id": "manual",
+      "name": "手动维护",
+      "priority": 10,
+      "enabled": true,
+      "type": "manual",
+      "parser": "manual",
+      "description": "手动添加和维护的会议数据",
+      "data": []
+    }
+  ],
+  "categories": {
+    "ai": {
+      "name": "人工智能",
+      "keywords": ["AI", "Artificial Intelligence", "Machine Learning", "Deep Learning"],
+      "conferences": ["IJCAI", "AAAI", "ICML", "NeurIPS"],
+      "journals": ["TPAMI", "JMLR", "TNNLS"]
+    },
+    "computer_vision": {
+      "name": "计算机视觉",
+      "keywords": ["Computer Vision", "Image Processing", "Pattern Recognition"],
+      "conferences": ["CVPR", "ICCV", "ECCV"],
+      "journals": ["IJCV", "TPAMI"]
+    },
+    "network": {
+      "name": "计算机网络",
+      "keywords": ["Network", "Communication", "Networking"],
+      "conferences": ["SIGCOMM", "INFOCOM", "NSDI"],
+      "journals": ["TON", "TOC"]
+    },
+    "security": {
+      "name": "网络安全",
+      "keywords": ["Security", "Privacy", "Cryptography"],
+      "conferences": ["USENIX Security", "IEEE S&P", "ACM CCS", "CRYPTO", "EUROCRYPT"],
+      "journals": ["TIFS", "TDSC", "TSC"]
+    },
+    "database": {
+      "name": "数据库",
+      "keywords": ["Database", "Data Management", "Big Data"],
+      "conferences": ["SIGMOD", "VLDB", "ICDE"],
+      "journals": ["TODS", "VLDB Journal", "TKDE"]
+    },
+    "software_engineering": {
+      "name": "软件工程",
+      "keywords": ["Software Engineering", "Programming", "Testing"],
+      "conferences": ["ICSE", "FSE", "ASE", "ISSTA"],
+      "journals": ["TSE", "TOSEM", "TACO"]
+    },
+    "theory": {
+      "name": "理论计算机",
+      "keywords": ["Theory", "Algorithms", "Complexity", "Computation"],
+      "conferences": ["STOC", "FOCS", "SODA", "LICS"],
+      "journals": ["JACM", "SICOMP", "TOCL"]
+    },
+    "hci": {
+      "name": "人机交互",
+      "keywords": ["HCI", "Human-Computer", "Interaction", "UI"],
+      "conferences": ["CHI", "UIST", "CSCW"],
+      "journals": ["TOCHI", "TOIS"]
+    },
+    "system": {
+      "name": "计算机系统",
+      "keywords": ["System", "Architecture", "Operating", "Distributed"],
+      "conferences": ["SOSP", "OSDI", "ASPLOS", "EuroSys"],
+      "journals": ["TOCS", "TOS"]
+    },
+    "iot": {
+      "name": "物联网",
+      "keywords": ["IoT", "Sensor", "Wireless", "Embedded"],
+      "conferences": ["SenSys", "IPSN", "INFOCOM"],
+      "journals": ["TOSN", "TIOT"]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-01-20",
+    "description": "数据源配置文件 - 定义会议数据来源和领域分类"
+  }
+}

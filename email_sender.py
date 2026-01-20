@@ -26,14 +26,15 @@ if sys.platform == 'win32':
 class CCFDeadlineEmailer:
     """CCF会议截止日期邮件发送器"""
 
-    def __init__(self, config_file: str = "config.json"):
+    def __init__(self, config_file: str = "config.json", data_file: str = None):
         """初始化邮件发送器
 
         Args:
             config_file: 配置文件路径
+            data_file: 数据文件路径（默认为conferences.json）
         """
         self.load_config(config_file)
-        self.load_conferences()
+        self.load_conferences(data_file)
 
     def load_config(self, config_file: str):
         """加载配置文件"""
@@ -58,25 +59,87 @@ class CCFDeadlineEmailer:
         if not all([self.smtp_server, self.smtp_user, self.smtp_password, self.from_email]):
             raise ValueError("缺少必需的邮件配置信息")
 
-    def load_conferences(self):
-        """加载会议信息"""
-        with open('conferences.json', 'r', encoding='utf-8') as f:
+    def load_conferences(self, data_file: str = None):
+        """加载会议信息
+
+        Args:
+            data_file: 数据文件路径（默认为conferences.json）
+        """
+        if data_file is None:
+            data_file = 'conferences.json'
+
+        with open(data_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.conferences = data.get('conferences', [])
+            self.data_type = '会议' if 'conference' in data_file else '期刊'
 
-    def get_upcoming_deadlines(self, days_ahead: int = 30) -> List[Dict]:
+    def filter_conferences(self, filters: Dict) -> List[Dict]:
+        """筛选会议
+
+        Args:
+            filters: 筛选条件字典
+                - rank: CCF等级（A/B/C）
+                - field: 研究领域
+                - type: 类型（conference/journal）
+                - min_confidence: 最低置信度
+
+        Returns:
+            筛选后的会议列表
+        """
+        filtered = self.conferences
+
+        # 按等级筛选
+        if 'rank' in filters:
+            rank = filters['rank'].upper()
+            if ',' in rank:
+                ranks = rank.split(',')
+                filtered = [c for c in filtered if c.get('rank') in ranks]
+            else:
+                filtered = [c for c in filtered if c.get('rank') == rank]
+
+        # 按领域筛选
+        if 'field' in filters:
+            field = filters['field'].lower()
+            filtered = [
+                c for c in filtered
+                if any(field in f.lower() for f in c.get('fields', []))
+            ]
+
+        # 按类型筛选
+        if 'type' in filters:
+            conf_type = filters['type']
+            filtered = [c for c in filtered if c.get('type', 'conference') == conf_type]
+
+        # 按置信度筛选
+        if 'min_confidence' in filters:
+            min_conf = filters['min_confidence']
+            filtered = [
+                c for c in filtered
+                if c.get('verification', {}).get('confidence', 0) >= min_conf
+            ]
+
+        return filtered
+
+    def get_upcoming_deadlines(self, days_ahead: int = 30, filters: Dict = None) -> List[Dict]:
         """获取即将到来的截止日期
 
         Args:
             days_ahead: 查询未来多少天内的截止日期
+            filters: 筛选条件（可选）
 
         Returns:
             即将截止的会议列表
         """
+        # 先应用筛选
+        if filters:
+            conferences = self.filter_conferences(filters)
+        else:
+            conferences = self.conferences
+
         today = datetime.now()
         upcoming = []
 
-        for conf in self.conferences:
+        for conf in conferences:
             deadline_str = conf.get('deadline')
             if not deadline_str:
                 continue
@@ -286,16 +349,17 @@ class CCFDeadlineEmailer:
             print(f"❌ 邮件发送失败: {str(e)}")
             raise
 
-    def run(self, days_ahead: int = 30, recipients=None):
+    def run(self, days_ahead: int = 30, recipients=None, filters: Dict = None):
         """运行邮件发送流程
 
         Args:
             days_ahead: 查询未来多少天内的截止日期
             recipients: 收件人列表（可选），如果不指定则使用配置中的收件人
+            filters: 筛选条件（可选）
         """
-        print(f"🔍 正在查找未来 {days_ahead} 天内的CCF会议截止日期...")
+        print(f"🔍 正在查找未来 {days_ahead} 天内的{self.data_type}截止日期...")
 
-        upcoming = self.get_upcoming_deadlines(days_ahead)
+        upcoming = self.get_upcoming_deadlines(days_ahead, filters)
 
         if upcoming:
             print(f"📊 找到 {len(upcoming)} 个即将截止的会议")
@@ -360,18 +424,78 @@ class CCFDeadlineEmailer:
 
 def main():
     """主函数"""
-    parser = argparse.ArgumentParser(description='CCF会议截止日期邮件提醒')
+    parser = argparse.ArgumentParser(description='CCF会议/期刊截止日期邮件提醒',
+                                     formatter_class=argparse.RawDescriptionHelpFormatter,
+                                     epilog="""
+示例:
+  # 查看未来30天的会议
+  python email_sender.py --days 30
+
+  # 只查看A类会议
+  python email_sender.py --days 30 --rank A
+
+  # 查看人工智能领域的会议
+  python email_sender.py --days 30 --field "人工智能"
+
+  # 查看期刊（而非会议）
+  python email_sender.py --days 30 --type journal
+
+  # 组合筛选：A类人工智能会议
+  python email_sender.py --days 30 --rank A --field "人工智能"
+
+  # 使用期刊数据文件
+  python email_sender.py --days 30 --type journal --data journals.json
+                                    """)
     parser.add_argument('-d', '--days', type=int, default=30,
                         help='查询未来多少天内的截止日期 (默认: 30)')
     parser.add_argument('-c', '--config', type=str, default='config.json',
                         help='配置文件路径 (默认: config.json)')
     parser.add_argument('--customers', action='store_true',
                         help='从customers.json读取客户列表并发送')
+    parser.add_argument('--rank', type=str, choices=['A', 'B', 'C'],
+                        help='筛选CCF等级 (A/B/C)')
+    parser.add_argument('--field', type=str,
+                        help='筛选研究领域（如：人工智能、数据库等）')
+    parser.add_argument('--type', choices=['conference', 'journal', 'all'],
+                        default='all',
+                        help='筛选类型：conference=会议, journal=期刊, all=全部 (默认: all)')
+    parser.add_argument('--data', type=str,
+                        help='数据文件路径 (默认: conferences.json)')
+    parser.add_argument('--min-confidence', type=float,
+                        help='最低置信度 (0.0-1.0，默认不限制)')
 
     args = parser.parse_args()
 
     try:
-        emailer = CCFDeadlineEmailer(args.config)
+        # 确定数据文件
+        data_file = args.data if args.data else 'conferences.json'
+
+        emailer = CCFDeadlineEmailer(args.config, data_file)
+
+        # 构建筛选条件
+        filters = {}
+        if args.rank:
+            filters['rank'] = args.rank
+        if args.field:
+            filters['field'] = args.field
+        if args.type != 'all':
+            filters['type'] = args.type
+        if args.min_confidence is not None:
+            filters['min_confidence'] = args.min_confidence
+
+        # 显示筛选条件
+        if filters:
+            print("🔍 筛选条件:")
+            if 'rank' in filters:
+                print(f"   等级: {filters['rank']}")
+            if 'field' in filters:
+                print(f"   领域: {filters['field']}")
+            if 'type' in filters:
+                type_name = {'conference': '会议', 'journal': '期刊'}[filters['type']]
+                print(f"   类型: {type_name}")
+            if 'min_confidence' in filters:
+                print(f"   最低置信度: {filters['min_confidence']}")
+            print()
 
         # 如果指定了--customers参数，从customers.json读取客户列表
         if args.customers:
@@ -386,13 +510,13 @@ def main():
                     return 1
 
                 print(f"📋 从customers.json读取到 {len(customer_emails)} 个启用的客户")
-                emailer.run(days_ahead=args.days, recipients=customer_emails)
+                emailer.run(days_ahead=args.days, recipients=customer_emails, filters=filters)
             except FileNotFoundError:
                 print("❌ 未找到customers.json文件")
                 print("   请先使用 manage_customers.py 添加客户")
                 return 1
         else:
-            emailer.run(days_ahead=args.days)
+            emailer.run(days_ahead=args.days, filters=filters)
 
     except Exception as e:
         print(f"❌ 程序执行失败: {str(e)}")

@@ -479,8 +479,1774 @@
       "conference_date": "2026年9月",
       "website": "https://esorics2026.org/",
       "description": "欧洲计算机安全研究研讨会，录用率16.1%"
+    },
+    {
+      "name": "STOC 2026",
+      "rank": "A",
+      "deadline": "2026-06-15",
+      "conference_date": "2026年6月22-25日",
+      "website": "https://acm-stoc.org/",
+      "description": "ACM计算理论研讨会，CCF A类会议，录用率28.5%",
+      "fields": [
+        "理论计算",
+        "算法",
+        "计算复杂性"
+      ],
+      "type": "conference",
+      "id": "stoc-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "STOC 2026",
+              "rank": "A",
+              "deadline": "2026-06-15",
+              "conference_date": "2026年6月22-25日",
+              "website": "https://acm-stoc.org/",
+              "description": "ACM计算理论研讨会，CCF A类会议，录用率28.5%",
+              "fields": [
+                "理论计算",
+                "算法",
+                "计算复杂性"
+              ],
+              "type": "conference",
+              "id": "stoc-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "FOCS 2026",
+      "rank": "A",
+      "deadline": "2026-07-01",
+      "conference_date": "2026年11月",
+      "website": "https://ieee-focs.org/",
+      "description": "IEEE计算机科学基础研讨会，CCF A类会议，录用率29.1%",
+      "fields": [
+        "理论计算",
+        "算法"
+      ],
+      "type": "conference",
+      "id": "focs-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "FOCS 2026",
+              "rank": "A",
+              "deadline": "2026-07-01",
+              "conference_date": "2026年11月",
+              "website": "https://ieee-focs.org/",
+              "description": "IEEE计算机科学基础研讨会，CCF A类会议，录用率29.1%",
+              "fields": [
+                "理论计算",
+                "算法"
+              ],
+              "type": "conference",
+              "id": "focs-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SODA 2026",
+      "rank": "B",
+      "deadline": "2026-07-15",
+      "conference_date": "2027年1月",
+      "website": "https://siam.org/meetings/da26/",
+      "description": "ACM-SIAM离散算法研讨会，录用率38.5%",
+      "fields": [
+        "理论计算",
+        "算法"
+      ],
+      "type": "conference",
+      "id": "soda-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SODA 2026",
+              "rank": "B",
+              "deadline": "2026-07-15",
+              "conference_date": "2027年1月",
+              "website": "https://siam.org/meetings/da26/",
+              "description": "ACM-SIAM离散算法研讨会，录用率38.5%",
+              "fields": [
+                "理论计算",
+                "算法"
+              ],
+              "type": "conference",
+              "id": "soda-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICALP 2026",
+      "rank": "B",
+      "deadline": "2026-07-20",
+      "conference_date": "2026年7月",
+      "website": "https://icalp2026.cs.uni-freiburg.de/",
+      "description": "国际自动机、语言与编程研讨会",
+      "fields": [
+        "理论计算",
+        "算法"
+      ],
+      "type": "conference",
+      "id": "icalp-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICALP 2026",
+              "rank": "B",
+              "deadline": "2026-07-20",
+              "conference_date": "2026年7月",
+              "website": "https://icalp2026.cs.uni-freiburg.de/",
+              "description": "国际自动机、语言与编程研讨会",
+              "fields": [
+                "理论计算",
+                "算法"
+              ],
+              "type": "conference",
+              "id": "icalp-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ESA 2026",
+      "rank": "B",
+      "deadline": "2026-08-01",
+      "conference_date": "2026年9月",
+      "website": "https://esa2026.irif.fr/",
+      "description": "欧洲研讨会",
+      "fields": [
+        "理论计算",
+        "算法"
+      ],
+      "type": "conference",
+      "id": "esa-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ESA 2026",
+              "rank": "B",
+              "deadline": "2026-08-01",
+              "conference_date": "2026年9月",
+              "website": "https://esa2026.irif.fr/",
+              "description": "欧洲研讨会",
+              "fields": [
+                "理论计算",
+                "算法"
+              ],
+              "type": "conference",
+              "id": "esa-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CHI 2026",
+      "rank": "A",
+      "deadline": "2026-09-15",
+      "conference_date": "2027年2月",
+      "website": "https://chi2026.acm.org/",
+      "description": "ACM CHI会议，人机交互顶会，CCF A类会议，录用率26.8%",
+      "fields": [
+        "人机交互",
+        "用户界面"
+      ],
+      "type": "conference",
+      "id": "chi-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CHI 2026",
+              "rank": "A",
+              "deadline": "2026-09-15",
+              "conference_date": "2027年2月",
+              "website": "https://chi2026.acm.org/",
+              "description": "ACM CHI会议，人机交互顶会，CCF A类会议，录用率26.8%",
+              "fields": [
+                "人机交互",
+                "用户界面"
+              ],
+              "type": "conference",
+              "id": "chi-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CSCW 2026",
+      "rank": "B",
+      "deadline": "2026-08-15",
+      "conference_date": "2027年2月",
+      "website": "https://cscw.acm.org/2026/",
+      "description": "ACM计算机支持协同工作会议",
+      "fields": [
+        "人机交互",
+        "协同工作"
+      ],
+      "type": "conference",
+      "id": "cscw-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CSCW 2026",
+              "rank": "B",
+              "deadline": "2026-08-15",
+              "conference_date": "2027年2月",
+              "website": "https://cscw.acm.org/2026/",
+              "description": "ACM计算机支持协同工作会议",
+              "fields": [
+                "人机交互",
+                "协同工作"
+              ],
+              "type": "conference",
+              "id": "cscw-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "GROUP 2026",
+      "rank": "C",
+      "deadline": "2026-09-01",
+      "conference_date": "2027年1月",
+      "website": "https://group.acm.org/",
+      "description": "ACM GROUP会议",
+      "fields": [
+        "人机交互",
+        "协同工作"
+      ],
+      "type": "conference",
+      "id": "group-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "GROUP 2026",
+              "rank": "C",
+              "deadline": "2026-09-01",
+              "conference_date": "2027年1月",
+              "website": "https://group.acm.org/",
+              "description": "ACM GROUP会议",
+              "fields": [
+                "人机交互",
+                "协同工作"
+              ],
+              "type": "conference",
+              "id": "group-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SOCC 2026",
+      "rank": "A",
+      "deadline": "2026-06-01",
+      "conference_date": "2026年10月",
+      "website": "https://socc2026.sigarss.org/",
+      "description": "ACM云计算研讨会，CCF A类会议，录用率18.5%",
+      "fields": [
+        "云计算",
+        "分布式系统"
+      ],
+      "type": "conference",
+      "id": "socc-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SOCC 2026",
+              "rank": "A",
+              "deadline": "2026-06-01",
+              "conference_date": "2026年10月",
+              "website": "https://socc2026.sigarss.org/",
+              "description": "ACM云计算研讨会，CCF A类会议，录用率18.5%",
+              "fields": [
+                "云计算",
+                "分布式系统"
+              ],
+              "type": "conference",
+              "id": "socc-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "EuroSys 2026",
+      "rank": "A",
+      "deadline": "2026-05-15",
+      "conference_date": "2026年4月",
+      "website": "https://2026.eurosys.org/",
+      "description": "欧洲系统会议，CCF A类会议，录用率19.8%",
+      "fields": [
+        "云计算",
+        "操作系统",
+        "分布式系统"
+      ],
+      "type": "conference",
+      "id": "eurosys-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "EuroSys 2026",
+              "rank": "A",
+              "deadline": "2026-05-15",
+              "conference_date": "2026年4月",
+              "website": "https://2026.eurosys.org/",
+              "description": "欧洲系统会议，CCF A类会议，录用率19.8%",
+              "fields": [
+                "云计算",
+                "操作系统",
+                "分布式系统"
+              ],
+              "type": "conference",
+              "id": "eurosys-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ATC 2026",
+      "rank": "B",
+      "deadline": "2026-05-20",
+      "conference_date": "2026年7月",
+      "website": "https://www.usenix.org/conference/atc26",
+      "description": "USENIX年度技术会议",
+      "fields": [
+        "操作系统",
+        "云计算"
+      ],
+      "type": "conference",
+      "id": "atc-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ATC 2026",
+              "rank": "B",
+              "deadline": "2026-05-20",
+              "conference_date": "2026年7月",
+              "website": "https://www.usenix.org/conference/atc26",
+              "description": "USENIX年度技术会议",
+              "fields": [
+                "操作系统",
+                "云计算"
+              ],
+              "type": "conference",
+              "id": "atc-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CIDR 2026",
+      "rank": "B",
+      "deadline": "2026-07-01",
+      "conference_date": "2027年1月",
+      "website": "https://cidrdb.org/",
+      "description": "创新数据系统研究研讨会",
+      "fields": [
+        "数据库",
+        "大数据"
+      ],
+      "type": "conference",
+      "id": "cidr-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CIDR 2026",
+              "rank": "B",
+              "deadline": "2026-07-01",
+              "conference_date": "2027年1月",
+              "website": "https://cidrdb.org/",
+              "description": "创新数据系统研究研讨会",
+              "fields": [
+                "数据库",
+                "大数据"
+              ],
+              "type": "conference",
+              "id": "cidr-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SenSys 2026",
+      "rank": "B",
+      "deadline": "2026-05-01",
+      "conference_date": "2026年11月",
+      "website": "https://sensys.acm.org/2026/",
+      "description": "ACM嵌入式网络传感器系统会议",
+      "fields": [
+        "物联网",
+        "传感器网络",
+        "嵌入式系统"
+      ],
+      "type": "conference",
+      "id": "sensys-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SenSys 2026",
+              "rank": "B",
+              "deadline": "2026-05-01",
+              "conference_date": "2026年11月",
+              "website": "https://sensys.acm.org/2026/",
+              "description": "ACM嵌入式网络传感器系统会议",
+              "fields": [
+                "物联网",
+                "传感器网络",
+                "嵌入式系统"
+              ],
+              "type": "conference",
+              "id": "sensys-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IPSN 2026",
+      "rank": "B",
+      "deadline": "2026-07-15",
+      "conference_date": "2027年4月",
+      "website": "https://ipsn.acm.org/2026/",
+      "description": "国际信息处理 in sensor networks 会议",
+      "fields": [
+        "物联网",
+        "传感器网络",
+        "信息处理"
+      ],
+      "type": "conference",
+      "id": "ipsn-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IPSN 2026",
+              "rank": "B",
+              "deadline": "2026-07-15",
+              "conference_date": "2027年4月",
+              "website": "https://ipsn.acm.org/2026/",
+              "description": "国际信息处理 in sensor networks 会议",
+              "fields": [
+                "物联网",
+                "传感器网络",
+                "信息处理"
+              ],
+              "type": "conference",
+              "id": "ipsn-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "PerCom 2026",
+      "rank": "C",
+      "deadline": "2026-07-20",
+      "conference_date": "2027年3月",
+      "website": "https://percom.org/",
+      "description": "国际普适计算会议",
+      "fields": [
+        "物联网",
+        "普适计算",
+        "移动计算"
+      ],
+      "type": "conference",
+      "id": "percom-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "PerCom 2026",
+              "rank": "C",
+              "deadline": "2026-07-20",
+              "conference_date": "2027年3月",
+              "website": "https://percom.org/",
+              "description": "国际普适计算会议",
+              "fields": [
+                "物联网",
+                "普适计算",
+                "移动计算"
+              ],
+              "type": "conference",
+              "id": "percom-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "INFOCOM 2026",
+      "rank": "A",
+      "deadline": "2026-07-30",
+      "conference_date": "2027年5月",
+      "website": "https://infocom2026.ieee-infocom.org/",
+      "description": "IEEE国际计算机通信会议，CCF A类会议，录用率21.5%",
+      "fields": [
+        "计算机网络",
+        "物联网"
+      ],
+      "type": "conference",
+      "id": "infocom-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "INFOCOM 2026",
+              "rank": "A",
+              "deadline": "2026-07-30",
+              "conference_date": "2027年5月",
+              "website": "https://infocom2026.ieee-infocom.org/",
+              "description": "IEEE国际计算机通信会议，CCF A类会议，录用率21.5%",
+              "fields": [
+                "计算机网络",
+                "物联网"
+              ],
+              "type": "conference",
+              "id": "infocom-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACM CCS 2026",
+      "rank": "A",
+      "deadline": "2026-05-15",
+      "conference_date": "2026年11月",
+      "website": "https://www.sigsac.org/ccs/2026/",
+      "description": "ACM计算机与通信安全会议，CCF A类会议，录用率19.3%",
+      "fields": [
+        "网络安全",
+        "区块链",
+        "密码学"
+      ],
+      "type": "conference",
+      "id": "acm-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACM CCS 2026",
+              "rank": "A",
+              "deadline": "2026-05-15",
+              "conference_date": "2026年11月",
+              "website": "https://www.sigsac.org/ccs/2026/",
+              "description": "ACM计算机与通信安全会议，CCF A类会议，录用率19.3%",
+              "fields": [
+                "网络安全",
+                "区块链",
+                "密码学"
+              ],
+              "type": "conference",
+              "id": "acm-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IEEE S&P 2026",
+      "rank": "A",
+      "deadline": "2026-05-30",
+      "conference_date": "2027年5月",
+      "website": "https://www.ieee-security.org/TC/SP2026",
+      "description": "IEEE安全与隐私研讨会，CCF A类会议，录用率15.8%",
+      "fields": [
+        "网络安全",
+        "隐私保护"
+      ],
+      "type": "conference",
+      "id": "ieee-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IEEE S&P 2026",
+              "rank": "A",
+              "deadline": "2026-05-30",
+              "conference_date": "2027年5月",
+              "website": "https://www.ieee-security.org/TC/SP2026",
+              "description": "IEEE安全与隐私研讨会，CCF A类会议，录用率15.8%",
+              "fields": [
+                "网络安全",
+                "隐私保护"
+              ],
+              "type": "conference",
+              "id": "ieee-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "NDSS 2026",
+      "rank": "A",
+      "deadline": "2026-06-15",
+      "conference_date": "2027年2月",
+      "website": "https://www.ndss-symposium.org/",
+      "description": "网络与分布式系统安全研讨会，CCF A类会议",
+      "fields": [
+        "网络安全",
+        "分布式系统"
+      ],
+      "type": "conference",
+      "id": "ndss-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "NDSS 2026",
+              "rank": "A",
+              "deadline": "2026-06-15",
+              "conference_date": "2027年2月",
+              "website": "https://www.ndss-symposium.org/",
+              "description": "网络与分布式系统安全研讨会，CCF A类会议",
+              "fields": [
+                "网络安全",
+                "分布式系统"
+              ],
+              "type": "conference",
+              "id": "ndss-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "RAID 2026",
+      "rank": "C",
+      "deadline": "2026-06-20",
+      "conference_date": "2026年9月",
+      "website": "https://raid2026.org/",
+      "description": "国际最近入侵检测研讨会",
+      "fields": [
+        "网络安全",
+        "入侵检测"
+      ],
+      "type": "conference",
+      "id": "raid-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "RAID 2026",
+              "rank": "C",
+              "deadline": "2026-06-20",
+              "conference_date": "2026年9月",
+              "website": "https://raid2026.org/",
+              "description": "国际最近入侵检测研讨会",
+              "fields": [
+                "网络安全",
+                "入侵检测"
+              ],
+              "type": "conference",
+              "id": "raid-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICSE 2026",
+      "rank": "A",
+      "deadline": "2026-08-15",
+      "conference_date": "2027年4月",
+      "website": "https://conf.researchr.org/home/icse-2026",
+      "description": "国际软件工程会议，CCF A类会议，录用率22.5%",
+      "fields": [
+        "软件工程"
+      ],
+      "type": "conference",
+      "id": "icse-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICSE 2026",
+              "rank": "A",
+              "deadline": "2026-08-15",
+              "conference_date": "2027年4月",
+              "website": "https://conf.researchr.org/home/icse-2026",
+              "description": "国际软件工程会议，CCF A类会议，录用率22.5%",
+              "fields": [
+                "软件工程"
+              ],
+              "type": "conference",
+              "id": "icse-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "FSE 2026",
+      "rank": "A",
+      "deadline": "2026-08-30",
+      "conference_date": "2027年9月",
+      "website": "https://esec-fse.securite.org/",
+      "description": "ACM SIGSOFT软件工程基础研讨会，CCF A类会议",
+      "fields": [
+        "软件工程"
+      ],
+      "type": "conference",
+      "id": "fse-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "FSE 2026",
+              "rank": "A",
+              "deadline": "2026-08-30",
+              "conference_date": "2027年9月",
+              "website": "https://esec-fse.securite.org/",
+              "description": "ACM SIGSOFT软件工程基础研讨会，CCF A类会议",
+              "fields": [
+                "软件工程"
+              ],
+              "type": "conference",
+              "id": "fse-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICPC 2026",
+      "rank": "B",
+      "deadline": "2026-08-20",
+      "conference_date": "2027年3月",
+      "website": "https://conf.researchr.org/home/icpc-2026",
+      "description": "国际软件维护与演进会议",
+      "fields": [
+        "软件工程",
+        "软件维护"
+      ],
+      "type": "conference",
+      "id": "icpc-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICPC 2026",
+              "rank": "B",
+              "deadline": "2026-08-20",
+              "conference_date": "2027年3月",
+              "website": "https://conf.researchr.org/home/icpc-2026",
+              "description": "国际软件维护与演进会议",
+              "fields": [
+                "软件工程",
+                "软件维护"
+              ],
+              "type": "conference",
+              "id": "icpc-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ESEC/FSE 2026",
+      "rank": "A",
+      "deadline": "2026-09-01",
+      "conference_date": "2027年9月",
+      "website": "https://esec-fse.securite.org/",
+      "description": "欧洲软件工程会议",
+      "fields": [
+        "软件工程"
+      ],
+      "type": "conference",
+      "id": "esec-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ESEC/FSE 2026",
+              "rank": "A",
+              "deadline": "2026-09-01",
+              "conference_date": "2027年9月",
+              "website": "https://esec-fse.securite.org/",
+              "description": "欧洲软件工程会议",
+              "fields": [
+                "软件工程"
+              ],
+              "type": "conference",
+              "id": "esec-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CVPR 2026",
+      "rank": "A",
+      "deadline": "2026-11-15",
+      "conference_date": "2027年6月",
+      "website": "https://cvpr2026.thecvf.com/",
+      "description": "IEEE计算机视觉与模式识别会议，CCF A类会议，录用率24.8%",
+      "fields": [
+        "计算机视觉",
+        "模式识别"
+      ],
+      "type": "conference",
+      "id": "cvpr-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CVPR 2026",
+              "rank": "A",
+              "deadline": "2026-11-15",
+              "conference_date": "2027年6月",
+              "website": "https://cvpr2026.thecvf.com/",
+              "description": "IEEE计算机视觉与模式识别会议，CCF A类会议，录用率24.8%",
+              "fields": [
+                "计算机视觉",
+                "模式识别"
+              ],
+              "type": "conference",
+              "id": "cvpr-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICCV 2027",
+      "rank": "A",
+      "deadline": "2027-03-17",
+      "conference_date": "2027年10月",
+      "website": "https://iccv2027.thecvf.com/",
+      "description": "国际计算机视觉会议，CCF A类会议，录用率28.5%",
+      "fields": [
+        "计算机视觉"
+      ],
+      "type": "conference",
+      "id": "iccv-2027",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICCV 2027",
+              "rank": "A",
+              "deadline": "2027-03-17",
+              "conference_date": "2027年10月",
+              "website": "https://iccv2027.thecvf.com/",
+              "description": "国际计算机视觉会议，CCF A类会议，录用率28.5%",
+              "fields": [
+                "计算机视觉"
+              ],
+              "type": "conference",
+              "id": "iccv-2027"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SIGGRAPH Asia 2026",
+      "rank": "A",
+      "deadline": "2026-06-01",
+      "conference_date": "2026年12月",
+      "website": "https://s2026.siggraph.org/",
+      "description": "ACM SIGGRAPH亚洲会议，CCF A类会议",
+      "fields": [
+        "计算机图形学",
+        "人机交互"
+      ],
+      "type": "conference",
+      "id": "siggraph-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SIGGRAPH Asia 2026",
+              "rank": "A",
+              "deadline": "2026-06-01",
+              "conference_date": "2026年12月",
+              "website": "https://s2026.siggraph.org/",
+              "description": "ACM SIGGRAPH亚洲会议，CCF A类会议",
+              "fields": [
+                "计算机图形学",
+                "人机交互"
+              ],
+              "type": "conference",
+              "id": "siggraph-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ACL 2026",
+      "rank": "A",
+      "deadline": "2026-12-15",
+      "conference_date": "2027年7月",
+      "website": "https://2026.aclweb.org/",
+      "description": "国际计算语言学年会，CCF A类会议，录用率27.5%",
+      "fields": [
+        "自然语言处理",
+        "计算语言学"
+      ],
+      "type": "conference",
+      "id": "acl-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ACL 2026",
+              "rank": "A",
+              "deadline": "2026-12-15",
+              "conference_date": "2027年7月",
+              "website": "https://2026.aclweb.org/",
+              "description": "国际计算语言学年会，CCF A类会议，录用率27.5%",
+              "fields": [
+                "自然语言处理",
+                "计算语言学"
+              ],
+              "type": "conference",
+              "id": "acl-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "EMNLP 2026",
+      "rank": "B",
+      "deadline": "2026-06-15",
+      "conference_date": "2026年11月",
+      "website": "https://2026.emnlp.org/",
+      "description": "自然语言处理经验方法会议",
+      "fields": [
+        "自然语言处理"
+      ],
+      "type": "conference",
+      "id": "emnlp-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "EMNLP 2026",
+              "rank": "B",
+              "deadline": "2026-06-15",
+              "conference_date": "2026年11月",
+              "website": "https://2026.emnlp.org/",
+              "description": "自然语言处理经验方法会议",
+              "fields": [
+                "自然语言处理"
+              ],
+              "type": "conference",
+              "id": "emnlp-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "NAACL 2026",
+      "rank": "C",
+      "deadline": "2026-10-01",
+      "conference_date": "2027年6月",
+      "website": "https://2026.naacl.org/",
+      "description": "北美计算语言学年会",
+      "fields": [
+        "自然语言处理"
+      ],
+      "type": "conference",
+      "id": "naacl-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "NAACL 2026",
+              "rank": "C",
+              "deadline": "2026-10-01",
+              "conference_date": "2027年6月",
+              "website": "https://2026.naacl.org/",
+              "description": "北美计算语言学年会",
+              "fields": [
+                "自然语言处理"
+              ],
+              "type": "conference",
+              "id": "naacl-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "WWW 2026",
+      "rank": "A",
+      "deadline": "2026-10-15",
+      "conference_date": "2027年4月",
+      "website": "https://www2026.thewebconf.org/",
+      "description": "国际万维网会议，CCF A类会议，录用率21.5%",
+      "fields": [
+        "信息检索",
+        "万维网",
+        "数据挖掘"
+      ],
+      "type": "conference",
+      "id": "www-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "WWW 2026",
+              "rank": "A",
+              "deadline": "2026-10-15",
+              "conference_date": "2027年4月",
+              "website": "https://www2026.thewebconf.org/",
+              "description": "国际万维网会议，CCF A类会议，录用率21.5%",
+              "fields": [
+                "信息检索",
+                "万维网",
+                "数据挖掘"
+              ],
+              "type": "conference",
+              "id": "www-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "WSDM 2026",
+      "rank": "B",
+      "deadline": "2026-07-30",
+      "conference_date": "2027年3月",
+      "website": "https://www.wsdm-conference.org/2026/",
+      "description": "ACM国际网络搜索与数据挖掘会议",
+      "fields": [
+        "信息检索",
+        "数据挖掘",
+        "搜索"
+      ],
+      "type": "conference",
+      "id": "wsdm-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "WSDM 2026",
+              "rank": "B",
+              "deadline": "2026-07-30",
+              "conference_date": "2027年3月",
+              "website": "https://www.wsdm-conference.org/2026/",
+              "description": "ACM国际网络搜索与数据挖掘会议",
+              "fields": [
+                "信息检索",
+                "数据挖掘",
+                "搜索"
+              ],
+              "type": "conference",
+              "id": "wsdm-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CIKM 2026",
+      "rank": "B",
+      "deadline": "2026-06-15",
+      "conference_date": "2026年10月",
+      "website": "https://www.cikm2026.org/",
+      "description": "信息与知识管理国际会议",
+      "fields": [
+        "信息检索",
+        "数据库",
+        "知识管理"
+      ],
+      "type": "conference",
+      "id": "cikm-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CIKM 2026",
+              "rank": "B",
+              "deadline": "2026-06-15",
+              "conference_date": "2026年10月",
+              "website": "https://www.cikm2026.org/",
+              "description": "信息与知识管理国际会议",
+              "fields": [
+                "信息检索",
+                "数据库",
+                "知识管理"
+              ],
+              "type": "conference",
+              "id": "cikm-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICDE 2026",
+      "rank": "A",
+      "deadline": "2026-07-15",
+      "conference_date": "2027年4月",
+      "website": "https://icde2026.icde.xyz/",
+      "description": "国际数据工程会议，CCF A类会议，录用率23.5%",
+      "fields": [
+        "数据库",
+        "数据工程",
+        "大数据"
+      ],
+      "type": "conference",
+      "id": "icde-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICDE 2026",
+              "rank": "A",
+              "deadline": "2026-07-15",
+              "conference_date": "2027年4月",
+              "website": "https://icde2026.icde.xyz/",
+              "description": "国际数据工程会议，CCF A类会议，录用率23.5%",
+              "fields": [
+                "数据库",
+                "数据工程",
+                "大数据"
+              ],
+              "type": "conference",
+              "id": "icde-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "SDM 2026",
+      "rank": "B",
+      "deadline": "2026-08-01",
+      "conference_date": "2027年4月",
+      "website": "https://www.siam.org/conferences/dm26/",
+      "description": "SIAM国际数据挖掘会议",
+      "fields": [
+        "数据挖掘",
+        "机器学习"
+      ],
+      "type": "conference",
+      "id": "sdm-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "SDM 2026",
+              "rank": "B",
+              "deadline": "2026-08-01",
+              "conference_date": "2027年4月",
+              "website": "https://www.siam.org/conferences/dm26/",
+              "description": "SIAM国际数据挖掘会议",
+              "fields": [
+                "数据挖掘",
+                "机器学习"
+              ],
+              "type": "conference",
+              "id": "sdm-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "ICRA 2026",
+      "rank": "B",
+      "deadline": "2026-09-15",
+      "conference_date": "2027年5月",
+      "website": "https://2026.ieee-icra.org/",
+      "description": "IEEE国际机器人与自动化会议",
+      "fields": [
+        "机器人",
+        "自动化"
+      ],
+      "type": "conference",
+      "id": "icra-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "ICRA 2026",
+              "rank": "B",
+              "deadline": "2026-09-15",
+              "conference_date": "2027年5月",
+              "website": "https://2026.ieee-icra.org/",
+              "description": "IEEE国际机器人与自动化会议",
+              "fields": [
+                "机器人",
+                "自动化"
+              ],
+              "type": "conference",
+              "id": "icra-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "IROS 2026",
+      "rank": "B",
+      "deadline": "2026-08-30",
+      "conference_date": "2026年10月",
+      "website": "https://iros2026.org/",
+      "description": "IEEE/RSJ智能机器人与系统国际会议",
+      "fields": [
+        "机器人",
+        "智能系统"
+      ],
+      "type": "conference",
+      "id": "iros-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "IROS 2026",
+              "rank": "B",
+              "deadline": "2026-08-30",
+              "conference_date": "2026年10月",
+              "website": "https://iros2026.org/",
+              "description": "IEEE/RSJ智能机器人与系统国际会议",
+              "fields": [
+                "机器人",
+                "智能系统"
+              ],
+              "type": "conference",
+              "id": "iros-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "RSS 2026",
+      "rank": "B",
+      "deadline": "2026-07-01",
+      "conference_date": "2026年6月",
+      "website": "https://roboticsconference.org/",
+      "description": "机器人：科学与系统",
+      "fields": [
+        "机器人"
+      ],
+      "type": "conference",
+      "id": "rss-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "RSS 2026",
+              "rank": "B",
+              "deadline": "2026-07-01",
+              "conference_date": "2026年6月",
+              "website": "https://roboticsconference.org/",
+              "description": "机器人：科学与系统",
+              "fields": [
+                "机器人"
+              ],
+              "type": "conference",
+              "id": "rss-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "CNCC 2026",
+      "rank": "C",
+      "deadline": "2026-07-30",
+      "conference_date": "2026年10月",
+      "website": "https://cncc.ccf.org.cn/",
+      "description": "中国计算机大会",
+      "fields": [
+        "综合",
+        "计算机科学"
+      ],
+      "type": "conference",
+      "id": "cncc-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "CNCC 2026",
+              "rank": "C",
+              "deadline": "2026-07-30",
+              "conference_date": "2026年10月",
+              "website": "https://cncc.ccf.org.cn/",
+              "description": "中国计算机大会",
+              "fields": [
+                "综合",
+                "计算机科学"
+              ],
+              "type": "conference",
+              "id": "cncc-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
+    },
+    {
+      "name": "PRICAI 2026",
+      "rank": "C",
+      "deadline": "2026-05-15",
+      "conference_date": "2026年11月",
+      "website": "https://www.pricai2026.org/",
+      "description": "太平洋人工智能国际会议",
+      "fields": [
+        "人工智能"
+      ],
+      "type": "conference",
+      "id": "pricai-2026",
+      "verification": {
+        "status": "unverified",
+        "sources": [
+          {
+            "source_id": "manual",
+            "last_checked": "2026-01-20",
+            "data": {
+              "name": "PRICAI 2026",
+              "rank": "C",
+              "deadline": "2026-05-15",
+              "conference_date": "2026年11月",
+              "website": "https://www.pricai2026.org/",
+              "description": "太平洋人工智能国际会议",
+              "fields": [
+                "人工智能"
+              ],
+              "type": "conference",
+              "id": "pricai-2026"
+            }
+          }
+        ],
+        "conflicts": [],
+        "confidence": 0.5
+      },
+      "metadata": {
+        "created_at": "2026-01-20",
+        "updated_at": "2026-01-20",
+        "updated_by": "manual"
+      }
     }
   ],
-  "last_updated": "2026-01-19",
-  "note": "会议截止日期可能变更，请以官网信息为准。数据来源：https://ccfddl.top/"
+  "metadata": {
+    "last_updated": "2026-01-20 10:57:20",
+    "total_count": 100
+  }
 }

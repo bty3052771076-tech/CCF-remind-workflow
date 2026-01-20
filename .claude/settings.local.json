@@ -4,7 +4,14 @@
       "WebSearch",
       "Bash(python:*)",
       "mcp__web-reader__webReader",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(ls:*)",
+      "Bash(git init:*)"
     ]
   }
 }

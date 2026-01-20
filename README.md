@@ -1,18 +1,28 @@
 # CCF论文投稿截止日期提醒系统
 
-支持**邮件**和**飞书机器人**两种提醒方式的Python程序，自动追踪CCF会议投稿截止日期并发送提醒。
+支持**邮件**和**飞书机器人**两种提醒方式的Python程序，自动追踪CCF会议**和期刊**投稿截止日期并发送提醒。
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v2.2.0--beta-orange.svg)](https://github.com/)
 
 ## ✨ 功能特点
 
-- 📊 **自动追踪**CCF会议投稿截止日期
+- 🖥️ **图形化界面** - 友好的GUI界面，无需命令行操作
+- 📊 **自动追踪**CCF会议**和期刊**投稿截止日期
 - 🔥 **智能分类**按紧急程度（7天/15天/30天内）
 - 🎨 **精美格式**HTML邮件 / 飞书卡片
 - 👥 **客户管理**批量发送给多个客户
 - 🔄 **自动化**支持GitHub Actions定时运行
 - 📱 **多端支持**PC端 / 移动端查看
+- ✅ **v2.0新增** 多方数据验证，提高准确性
+- 🤖 **v2.0新增** 自动数据抓取（零依赖）
+- 📈 **v2.0新增** 数据统计分析与备份恢复
+- 📚 **v2.1新增** 期刊支持（49个期刊）
+- 🌐 **v2.1新增** 扩展到15+研究领域
+- 📊 **v2.1新增** 总计149条会议和期刊数据
+- 🖼️ **v2.2新增** 图形化界面（Tkinter GUI）
+- 🔍 **v2.2新增** 可视化筛选和搜索
 
 ---
 
@@ -87,6 +97,25 @@ cd submit_paper
 
 ### 3. 运行程序
 
+#### 🖥️ 方式A：图形化界面（推荐）
+
+```bash
+# 启动GUI界面
+python gui_launcher.py
+```
+
+**界面功能**：
+- 📊 可视化筛选（等级、领域、日期范围）
+- 🔍 实时搜索会议
+- 📧 一键发送邮件
+- 💬 一键发送飞书通知
+- 📊 查看详细信息
+- 📤 导出列表（TXT/JSON）
+
+详细使用说明请查看：[GUI_GUIDE.md](GUI_GUIDE.md)
+
+#### 💻 方式B：命令行
+
 ```bash
 # 发送飞书提醒
 python feishu_notifier.py --days 30
@@ -97,6 +126,79 @@ python email_sender.py --days 30
 # 批量发送给所有客户
 python email_sender.py --customers --days 30
 ```
+
+---
+
+## 🆕 v2.1 新功能
+
+### 期刊支持
+
+**新增49个CCF期刊**，涵盖所有主要计算机领域！
+
+```bash
+# 初始化期刊数据库
+python journal_manager.py --init
+
+# 查看期刊统计
+python journal_manager.py --stats
+
+# 查看Top10期刊（按影响因子）
+python journal_manager.py --top 10
+
+# 按影响因子筛选
+python journal_manager.py --filter-if 5.0 10.0
+```
+
+### 数据扩展
+
+- ✅ **会议数据**：从60个扩展到100个（+67%）
+- ✅ **期刊数据**：新增49个高质量期刊
+- ✅ **领域覆盖**：从6个扩展到15+个领域
+- ✅ **A类占比**：会议38%，期刊51%
+
+**新增领域**：
+- 理论计算（STOC, FOCS, SODA）
+- 人机交互（CHI, CSCW）
+- 云计算（SOCC, EuroSys）
+- 物联网（SenSys, IPSN）
+- 自然语言处理（ACL, EMNLP）
+- 机器人（ICRA, IROS）
+- 区块链（CCS, S&P）
+- 区域性会议（CNCC）
+
+**最高影响因子期刊**：
+1. TPAMI (24.3) - 模式分析与机器智能
+2. IJCV (19.5) - 计算机视觉
+3. AI (14.5) - 人工智能
+4. TNNLS (14.3) - 神经网络
+
+### v2.0 功能回顾
+
+**多方验证机制**：从多个数据源交叉验证会议信息，提高准确性。
+
+```bash
+# 抓取会议数据
+python data_fetcher.py --output fetched_data.json
+
+# 验证数据
+python data_validator.py --data fetched_data.json --report validation_report.json
+
+# 数据管理
+python conference_manager.py --stats
+python conference_manager.py --migrate  # 迁移旧数据
+python conference_manager.py --backup   # 创建备份
+```
+
+**核心模块**：
+- `data_fetcher.py` - 网页数据抓取器（使用标准库urllib）
+- `data_validator.py` - 交叉验证器（检测冲突、计算置信度）
+- `conference_manager.py` - 数据管理器（备份、恢复、统计）
+- `journal_manager.py` - 期刊管理器
+- `sources.json` - 数据源配置
+
+详细使用说明请查看：[DATA_VALIDATION.md](DATA_VALIDATION.md)
+
+---
 
 ---
 
@@ -222,12 +324,14 @@ python manage_customers.py disable --email client@qq.com
 
 ```
 submit_paper/
+├── gui_launcher.py              # 🖥️ 图形化界面（GUI）
 ├── feishu_notifier.py          # 飞书机器人通知程序
 ├── email_sender.py              # 邮件通知程序
 ├── manage_customers.py          # 客户管理程序
 ├── test_feishu.py               # 飞书连接测试
 ├── test_email.py                # 邮件连接测试
 ├── conferences.json             # CCF会议数据
+├── journals.json                # CCF期刊数据
 │
 ├── config.json                  # 邮件配置（敏感，不上传）
 ├── feishu_config.json           # 飞书配置（敏感，不上传）
@@ -243,6 +347,7 @@ submit_paper/
 │
 ├── .gitignore                   # Git忽略文件
 ├── README.md                    # 本文件
+├── GUI_GUIDE.md                 # 🖥️ GUI使用指南
 ├── FEISHU_SETUP.md              # 飞书配置详细指南
 ├── SETUP_GUIDE.md               # 邮件配置详细指南
 └── CUSTOMER_GUIDE.md            # 客户管理详细指南
